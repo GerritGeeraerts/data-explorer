@@ -2,6 +2,8 @@
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![LangChain](https://img.shields.io/badge/🦜_LangChain-121D33?style=for-the-badge)
 
+![banner](./assets/banner.png)
+
 ## 📖 Description
 
 **Data Describer** is a fast and efficient tool for exploring JSON data to create LLM-friendly data descriptions. Instead of manually analyzing complex JSON structures, this tool automates the entire process:

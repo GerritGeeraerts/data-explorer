@@ -1,11 +1,14 @@
-# Core dependencies for JSON analysis
-langchain>=0.2.0
-langchain-community>=0.2.0
-langchain-core>=0.2.0
-requests>=2.31.0
-python-dotenv>=1.0.0  # For environment variable management from .env file
-langchain-openai==0.3.34
-ydata-profiling>=4.15.1
+# Data analysis and profiling
+pandas==2.2.3
+ydata-profiling==4.10.0
 
+# LangChain ecosystem
+langchain==0.3.7
+langchain-community==0.3.5
+langchain-core==0.3.15
+langchain-openai==0.2.8
 
-# Note: sqlite3 is built-in Python module for caching
+# Environment and configuration management
+python-dotenv==1.0.1
+
+# Note: json, os, argparse, and sqlite3 are part of Python's standard library
