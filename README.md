@@ -48,6 +48,7 @@ Get a sneak peek at how you can explore your data with rich visualizations and i
 ## ✨ Features
 
 - 🚀 **Fast Data Exploration** - Analyze directories with multiple JSON files in seconds
+- 📊 **File Limiting** - Control the maximum number of files processed (default: 1000)
 - 📦 **Single File Script** - Easy to copy and integrate into any project
 - 🤖 **LLM-Friendly Output** - Generate compact, enriched descriptions perfect for AI assistants
 - 📊 **Comprehensive Analysis** - Powered by ydata-profiling for deep statistical insights
@@ -194,6 +195,7 @@ optional arguments:
   -s, --shrink          Run shrink step only
   -e, --enrich          Run enrich step only
   -n, --name NAME       Base name for output files (default: report)
+  -l, --limit LIMIT     Maximum number of files to process (default: 1000)
 ```
 
 ### Example Workflow
@@ -201,6 +203,9 @@ optional arguments:
 ```bash
 # Analyze job listings data
 python explore-data.py ./jobs/bronze/vdab/job_listings/ --all --name job_analysis
+
+# Analyze with a custom file limit (only process 100 files)
+python explore-data.py ./jobs/bronze/vdab/job_listings/ --all --name job_analysis --limit 100
 
 # Results will be in:
 # - report/job_analysis_raw.html (open in browser)

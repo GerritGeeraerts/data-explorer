@@ -1,0 +1,3053 @@
+{
+    "status": {
+        "p_missing": 0.0,
+        "p_distinct": 0.001,
+        "n_distinct": 1,
+        "type": "Categorical",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "ACTIEF": 1000
+        }
+    },
+    "gepubliceerd": {
+        "p_missing": 0.0,
+        "p_distinct": 0.001,
+        "n_distinct": 1,
+        "type": "Boolean",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "true": 1000
+        }
+    },
+    "gesloten": {
+        "p_missing": 0.0,
+        "p_distinct": 0.001,
+        "n_distinct": 1,
+        "type": "Boolean",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "false": 1000
+        }
+    },
+    "aantalJobs": {
+        "p_missing": 0.0,
+        "mean": 1.032,
+        "p_distinct": 0.006,
+        "max": 10,
+        "n_distinct": 6,
+        "type": "Numeric",
+        "n_missing": 0,
+        "std": 0.3783108762897508,
+        "min": 1,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "1": 987,
+            "2": 6,
+            "3": 4,
+            "6": 1,
+            "5": 1,
+            "10": 1
+        }
+    },
+    "dubbels": {
+        "p_missing": 0.0,
+        "type": "Unsupported",
+        "n_missing": 0,
+        "n": 1000
+    },
+    "laatsteWijzigingDatum": {
+        "p_missing": 0.0,
+        "p_distinct": 0.998,
+        "max": "2025-09-02 18:15:46+00:00",
+        "n_distinct": 998,
+        "type": "DateTime",
+        "n_missing": 0,
+        "min": "2024-04-08 13:51:21+00:00",
+        "n": 1000,
+        "value_counts_without_nan": {
+            "2025-08-29 00:05:05+00:00": 2,
+            "2025-08-14 09:16:21+00:00": 2,
+            "2025-06-18 06:29:22+00:00": 1,
+            "2025-06-10 11:03:59+00:00": 1,
+            "2025-07-15 11:35:07+00:00": 1,
+            "2025-08-28 09:18:11+00:00": 1,
+            "2025-08-01 15:09:12+00:00": 1,
+            "2025-08-04 10:30:53+00:00": 1,
+            "2025-08-31 08:58:12+00:00": 1,
+            "2025-08-13 15:46:30+00:00": 1,
+            "more ...": -1
+        }
+    },
+    "eerstePublicatieDatum": {
+        "p_missing": 0.0,
+        "p_distinct": 0.998,
+        "max": "2025-09-02 17:18:04+00:00",
+        "n_distinct": 998,
+        "type": "DateTime",
+        "n_missing": 0,
+        "min": "2019-03-04 13:43:11+00:00",
+        "n": 1000,
+        "value_counts_without_nan": {
+            "2025-08-29 00:05:05+00:00": 2,
+            "2025-08-14 09:16:21+00:00": 2,
+            "2025-06-18 06:29:22+00:00": 1,
+            "2025-06-10 11:03:59+00:00": 1,
+            "2025-07-15 11:35:07+00:00": 1,
+            "2025-08-27 18:18:02+00:00": 1,
+            "2025-07-31 14:32:48+00:00": 1,
+            "2025-08-04 10:15:44+00:00": 1,
+            "2025-08-31 08:58:12+00:00": 1,
+            "2025-07-09 16:46:23+00:00": 1,
+            "more ...": -1
+        }
+    },
+    "prioriteit": {
+        "p_missing": 0.0,
+        "p_distinct": 0.003,
+        "n_distinct": 3,
+        "type": "Categorical",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "1": 456,
+            "3": 440,
+            "5": 104
+        }
+    },
+    "deelDatabanken": {
+        "p_missing": 0.0,
+        "type": "Unsupported",
+        "n_missing": 0,
+        "n": 1000
+    },
+    "jobPosting": {
+        "p_missing": 0.011,
+        "p_distinct": 0.9989888776541962,
+        "n_distinct": 988,
+        "type": "Text",
+        "n_missing": 11,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "{\"title\":\"Technisch projectingenieur energie\",\"description\":\"Ben jij het beu om vast te roesten achter een bureau? Zoek je **variatie**, verantwoordelijkheid en **vrijheid** in je job? Als jij houdt van techniek, zelf je planning regelt en je graag in het veld bewijst, lees dan zeker verder. **Geen prikklok**, wel vertrouwen.  \\n  \\n**Wat ga je doen?**  \\nAls **field engineer** ben jij de schakel tussen techniek, analyse en klantgerichte oplossingen. Als field service engineer:  \\n\\n\\n *  Analyseer je **technische problemen** op **locatie** en stel je structurele verbeteringen voor.\\n *  **Organiseer je zelf je agenda** en bepaal je eigen werkritme. Jij plant je week: soms één klant, soms vier. Geen dag is dezelfde.\\n *  **Start je installaties op** (commissioning) en voer je veiligheidscontroles uit, zodat alles draait zoals het hoort.\\n *  Zet je **meetcampagnes** op, stel je meetapparatuur in en trek je conclusies op basis van je data.\\n *  Stel je heldere rapporten op, werk je verbetervoorstellen uit en presenteer je die professioneel aan klanten.\\n *  Werk je nauw samen met engineering, service en sales, maar ga je ook geregeld solo op pad.\\n *  **Communiceer** je vlot en oplossingsgericht met klanten én collega’s.\\n\\n  \\n**Waar ga je werken?**  \\nJe komt terecht in een familiaal technisch bedrijf, actief in België en Nederland, waar eerlijkheid en wederzijds respect centraal staan. De sfeer is ontspannen, de structuur vlak en de werkplekken zijn proper en goed uitgerust. Je deelt je bureau met een andere field fngineer, maar je werk speelt zich vooral af bij klanten. Vrijheid, verantwoordelijkheid en vertrouwen? Check, check en check.\",\"hiringOrganization\":{\"name\":\"vind! Gent\",\"logo\":\"https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/bedrijven/3899/mobileLogo.png\",\"sameAs\":\"http://www.vindeenjob.be/\",\"@type\":\"Organization\"},\"jobLocation\":[{\"address\":{\"addressCountry\":\"BE\",\"addressLocality\":\"MALDEGEM\",\"postalCode\":\"9990\",\"@type\":\"PostalAddress\"},\"@type\":\"Place\"}],\"employmentType\":[\"FULL_TIME\"],\"datePosted\":\"2025-08-14T09:16:21Z\",\"baseSalary\":{\"currency\":\"EUR\",\"value\":{\"minValue\":3300.0,\"maxValue\":6000.0,\"unitText\":\"MONTH\",\"@type\":\"QuantitativeValue\"},\"@type\":\"MonetaryAmount\"},\"@context\":\"https://schema.org/\",\"@type\":\"JobPosting\"}": 2,
+            "more ...": -1
+        }
+    },
+    "kaartTonen": {
+        "p_missing": 0.0,
+        "p_distinct": 0.002,
+        "n_distinct": 2,
+        "type": "Boolean",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "false": 827,
+            "true": 173
+        }
+    },
+    "referentie > id": {
+        "p_missing": 0.0,
+        "mean": 71389769.863,
+        "p_distinct": 1.0,
+        "max": 71848246,
+        "n_distinct": 1000,
+        "type": "Numeric",
+        "n_missing": 0,
+        "std": 885774.3970730664,
+        "min": 59112381,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "71415350": 1,
+            "71805376": 1,
+            "71704833": 1,
+            "71760320": 1,
+            "71590684": 1,
+            "71499007": 1,
+            "71805336": 1,
+            "71743338": 1,
+            "71758194": 1,
+            "71405948": 1,
+            "more ...": -1
+        }
+    },
+    "referentie > uuid": {
+        "p_missing": 0.0,
+        "p_distinct": 1.0,
+        "n_distinct": 1000,
+        "type": "Text",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "23c5c90a-aa13-4a3d-805f-0f2d5a8ad9af": 1,
+            "71c206d0-f81d-461e-b743-25f7ae285695": 1,
+            "b992f53d-a468-4d3e-9620-64d57bedeef6": 1,
+            "185dba1e-8f3d-47e3-be73-e54a9312fafd": 1,
+            "32e5146a-9e60-4a58-8a8b-e68ba67bc61d": 1,
+            "ad270801-cc01-43d2-ae45-132b7b76ec3e": 1,
+            "2cd34f23-2690-438c-8e95-56f2a73fa0ee": 1,
+            "7e11c6b7-2529-4b07-9dfa-f476a45795cb": 1,
+            "f853f7ae-6c44-47f4-9da0-b5666b2e36be": 1,
+            "ab581eee-2502-4865-b8bd-cd4f3135f80d": 1,
+            "more ...": -1
+        }
+    },
+    "functie > naam": {
+        "p_missing": 0.0,
+        "p_distinct": 0.821,
+        "n_distinct": 821,
+        "type": "Text",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "IT Support Engineer": 15,
+            "System Engineer": 12,
+            "Data Engineer": 6,
+            "Data Analyst": 6,
+            "Network Engineer": 6,
+            "Process Engineer": 6,
+            "Software Engineer": 5,
+            "Python Developer": 5,
+            "Technical Support Engineer": 4,
+            "Digital Functional Analyst": 4,
+            "more ...": -1
+        }
+    },
+    "functie > omschrijving > html": {
+        "p_missing": 0.0,
+        "p_distinct": 0.939,
+        "n_distinct": 939,
+        "type": "Text",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "<p><strong data-start=\"209\" data-end=\"254\">Jouw rol als System Engineer</strong></p> \n<p><span lang=\"NL\">Afhankelijk van je ervaring werk je mee aan projecten zoals migraties, automatisatie of het beheren van cloud- en on-prem infrastructuur. Je komt terecht in boeiende IT-omgevingen en werkt samen met collega's en klanten om alles vlot en veilig te laten draaien.</span></p> \n<p><span lang=\"NL\"><strong>Kernverantwoordelijkheden:</strong></span></p> \n<ul> \n<li><span lang=\"NL\">Beheren en optimaliseren van Windows Server-omgevingen.</span></li> \n<li><span lang=\"NL\">Installeren en onderhouden van virtualisatieplatformen (zoals VMware, Hyper-V, Proxmox).</span></li> \n<li><span lang=\"NL\">Active Directory, DNS, DHCP en Group Policy beheren en finetunen.</span></li> \n<li><span lang=\"NL\">Automatiseren en configuratiebeheer van taken via scripting (PowerShell, Bash, Python).</span></li> \n<li><span lang=\"NL\">Ondersteunen bij cloudprojecten (Azure, AWS, GCP).</span></li> \n<li><span lang=\"NL\">Updates, migraties en monitoring uitvoeren met moderne tools.</span></li> \n<li><span lang=\"NL\">Meewerken aan hybride infrastructuur, inclusief endpointbeheer.</span></li> \n<li><span lang=\"NL\">Documenteren van de infrastructuur en kennis delen met je team.</span></li> </ul>": 6,
+            "more ...": -1
+        }
+    },
+    "functie > omschrijving > plainText": {
+        "p_missing": 0.0,
+        "p_distinct": 0.928,
+        "n_distinct": 928,
+        "type": "Text",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Jouw rol als System Engineer Afhankelijk van je ervaring werk je mee aan projecten zoals migraties, automatisatie of het beheren van cloud- en on-prem infrastructuur. Je komt terecht in boeiende IT-omgevingen en werkt samen met collega's en klanten om alles vlot en veilig te laten draaien. Kernverantwoordelijkheden: Beheren en optimaliseren van Windows Server-omgevingen. Installeren en onderhouden van virtualisatieplatformen (zoals VMware, Hyper-V, Proxmox). Active Directory, DNS, DHCP en Group Policy beheren en finetunen. Automatiseren en configuratiebeheer van taken via scripting (PowerShell, Bash, Python). Ondersteunen bij cloudprojecten (Azure, AWS, GCP). Updates, migraties en monitoring uitvoeren met moderne tools. Meewerken aan hybride infrastructuur, inclusief endpointbeheer. Documenteren van de infrastructuur en kennis delen met je team.": 6,
+            "more ...": -1
+        }
+    },
+    "functie > omschrijving > markdown": {
+        "p_missing": 0.0,
+        "p_distinct": 0.93,
+        "n_distinct": 930,
+        "type": "Text",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "**Jouw rol als Linux System Engineer**\n\nAfhankelijk van je ervaring werk je aan projecten in o.a. healthcare, finance, overheid en energie. Denk aan:\n\n *  Beheer en optimalisatie van Linux-servers (Debian, Ubuntu, RHEL, AlmaLinux).\n *  Automatisatie van provisioning & configuratie via Bash, Python, Ansible of Puppet.\n *  Opzetten en beheren van CI/CD pipelines en containerized workflows (Docker, Podman).\n *  Meewerken aan cloud- en hybrid cloudomgevingen (AWS, Azure, GCP).\n *  Uitvoeren van systeemupgrades, patchmanagement en hardening.\n *  Troubleshooting en performance tuning met tools zoals journalctl, htop, iostat, netdata.\n *  Versiebeheer en documentatie in Git, Wiki of Markdown.\n *  Advies geven over systeeminrichting, beveiliging en schaalbaarheid.": 6,
+            "more ...": -1
+        }
+    },
+    "functie > arbeidscircuit > code": {
+        "p_missing": 0.0,
+        "p_distinct": 0.012,
+        "n_distinct": 12,
+        "type": "Categorical",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "G": 776,
+            "IV": 102,
+            "Z": 38,
+            "CONTRACTONB": 29,
+            "TV": 17,
+            "T": 17,
+            "I": 13,
+            "VU": 3,
+            "FL": 2,
+            "V": 1,
+            "Q": 1,
+            "GB": 1
+        }
+    },
+    "functie > arbeidscircuit > label": {
+        "p_missing": 0.0,
+        "p_distinct": 0.012,
+        "n_distinct": 12,
+        "type": "Categorical",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Gewoon contract.": 776,
+            "Interim met optie 'vast werk'": 102,
+            "Zelfstandige activiteit": 38,
+            "Contractueel onbepaalde duur": 29,
+            "Tijdelijke job (met optie vast)": 17,
+            "Tijdelijke job.": 17,
+            "Interimcontract.": 13,
+            "Vaste job bij het uitzendkantoor": 3,
+            "Een flexijob is een bijverdienste en staat open voor iedereen die, reeds 3 kwartalen geleden, minstens 4/5 bij een andere werkgever, uit een andere sector, in vast dienstverband werkt.": 2,
+            "Studentenjob.": 1,
+            "Vervangingscontract brugpensioen - Voorwaarden: uitkeringsgerechtigd werkloos of schoolverlater in wachttijd zijn.": 1,
+            "Beperkte tewerkstelling <13 uren/week": 1
+        }
+    },
+    "functie > arbeidscircuit > kortLabel": {
+        "p_missing": 0.0,
+        "p_distinct": 0.012,
+        "n_distinct": 12,
+        "type": "Categorical",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Vaste Job": 776,
+            "Interim met optie \"vast werk\"": 102,
+            "Zelfstandige activiteit": 38,
+            "Contractueel onbepaalde duur": 29,
+            "Tijdelijke job (met optie vast)": 17,
+            "Tijdelijke job (niet via uitzendkantoren)": 17,
+            "Interim Job (uitsluitend voor uitzendkantoren)": 13,
+            "Vaste job bij het uitzendkantoor": 3,
+            "Flexijob": 2,
+            "Studentenjob": 1,
+            "Vervanging brugpensioen": 1,
+            "Beperkte tewerkstelling <13 uren/week": 1
+        }
+    },
+    "functie > arbeidscircuitLijn": {
+        "p_missing": 0.0,
+        "p_distinct": 0.012,
+        "n_distinct": 12,
+        "type": "Categorical",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Vaste Job": 776,
+            "Interim met optie \"vast werk\"": 102,
+            "Zelfstandige activiteit": 38,
+            "Contractueel onbepaalde duur": 29,
+            "Tijdelijke job (met optie vast)": 17,
+            "Tijdelijke job (niet via uitzendkantoren)": 17,
+            "Interim Job (uitsluitend voor uitzendkantoren)": 13,
+            "Vaste job bij het uitzendkantoor": 3,
+            "Flexijob": 2,
+            "Studentenjob": 1,
+            "Vervanging brugpensioen": 1,
+            "Beperkte tewerkstelling <13 uren/week": 1
+        }
+    },
+    "opmaak > logo > url": {
+        "p_missing": 0.272,
+        "p_distinct": 0.12225274725274725,
+        "n_distinct": 89,
+        "type": "Text",
+        "n_missing": 272,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/bedrijven/3769/mobileLogo.jpg": 102,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/bedrijven/4151/mobileLogo.png": 95,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/bedrijven/2970/mobileLogo.png": 59,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/bedrijven/3258/mobileLogo.jpg": 50,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/bedrijven/4534/mobileLogo.png": 36,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/bedrijven/3446/mobileLogo.png": 35,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/bedrijven/2969/mobileLogo.png": 34,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/bedrijven/4618/mobileLogo.jpg": 31,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/bedrijven/1584/mobileLogo.jpg": 16,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/bedrijven/3041/mobileLogo.jpg": 13,
+            "more ...": -1
+        }
+    },
+    "opmaak > logo > altText": {
+        "p_missing": 0.272,
+        "p_distinct": 0.12225274725274725,
+        "n_distinct": 89,
+        "type": "Text",
+        "n_missing": 272,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Logo Jobat": 102,
+            "Logo Editx": 95,
+            "Logo LGA IT": 59,
+            "Logo ictjob": 50,
+            "Logo Kwery": 36,
+            "Logo Lagom Engineering": 35,
+            "Logo LGA Engineering": 34,
+            "Logo Spark HR": 31,
+            "Logo Unique": 16,
+            "Logo Vivaldis Interim": 13,
+            "more ...": -1
+        }
+    },
+    "opmaak > h1TekstKleur": {
+        "p_missing": 0.271,
+        "p_distinct": 0.10150891632373114,
+        "n_distinct": 74,
+        "type": "Text",
+        "n_missing": 271,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "#2f3535": 102,
+            "#003187": 95,
+            "#000000": 89,
+            "#484848": 59,
+            "#0f282f": 36,
+            "#d27143": 35,
+            "#eb980b": 34,
+            "#322249": 31,
+            "#0095db": 16,
+            "#ffa300": 14,
+            "more ...": -1
+        }
+    },
+    "opmaak > h2TekstKleur": {
+        "p_missing": 0.271,
+        "p_distinct": 0.09602194787379972,
+        "n_distinct": 70,
+        "type": "Text",
+        "n_missing": 271,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "#2f3535": 102,
+            "#000000": 97,
+            "#003187": 95,
+            "#2ec4b6": 59,
+            "#0f282f": 36,
+            "#d27143": 35,
+            "#ef980c": 34,
+            "#322249": 31,
+            "#0095db": 16,
+            "#ffa300": 14,
+            "more ...": -1
+        }
+    },
+    "opmaak > h3TekstKleur": {
+        "p_missing": 0.271,
+        "p_distinct": 0.102880658436214,
+        "n_distinct": 75,
+        "type": "Text",
+        "n_missing": 271,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "#b7dbe7": 102,
+            "#2f80ed": 95,
+            "#2ec4b6": 59,
+            "#000000": 52,
+            "#f36d24": 50,
+            "#0f282f": 36,
+            "#d27143": 35,
+            "#ef980c": 34,
+            "#322249": 31,
+            "#4c1a6b": 16,
+            "more ...": -1
+        }
+    },
+    "opmaak > linksTekstKleur": {
+        "p_missing": 0.271,
+        "p_distinct": 0.07681755829903979,
+        "n_distinct": 56,
+        "type": "Text",
+        "n_missing": 271,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "#000000": 314,
+            "#b7dbe7": 102,
+            "#10a2be": 50,
+            "#0f282f": 36,
+            "#ef980c": 34,
+            "#4c1a6b": 16,
+            "#c56505": 14,
+            "#616882": 13,
+            "#004992": 13,
+            "#8aa0c9": 12,
+            "more ...": -1
+        }
+    },
+    "opmaak > bovenBalkTekstKleur": {
+        "p_missing": 0.271,
+        "p_distinct": 0.01646090534979424,
+        "n_distinct": 12,
+        "type": "Categorical",
+        "n_missing": 271,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "#ffffff": 371,
+            "#b7dbe7": 102,
+            "#000000": 70,
+            "#484848": 59,
+            "#0f282f": 36,
+            "#d27143": 35,
+            "#9f9fc5": 31,
+            "#004992": 13,
+            "#f6f6f6": 7,
+            "#672146": 3,
+            "#463a2e": 1,
+            "#001f5b": 1
+        }
+    },
+    "opmaak > bovenBalkAchtergrondKleur": {
+        "p_missing": 0.271,
+        "p_distinct": 0.10425240054869685,
+        "n_distinct": 76,
+        "type": "Text",
+        "n_missing": 271,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "#2f3535": 102,
+            "#2f80ed": 95,
+            "#2ec4b6": 59,
+            "#ffffff": 51,
+            "#f36d24": 50,
+            "#fff17c": 36,
+            "#ef980c": 34,
+            "#a61f69": 31,
+            "#000000": 22,
+            "#0095db": 16,
+            "more ...": -1
+        }
+    },
+    "opmaak > onderBalkAchtergrondKleur": {
+        "p_missing": 0.271,
+        "p_distinct": 0.09327846364883402,
+        "n_distinct": 68,
+        "type": "Text",
+        "n_missing": 271,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "#ffffff": 147,
+            "#2f3535": 102,
+            "#2f80ed": 95,
+            "#2ec4b6": 59,
+            "#f36d24": 50,
+            "#ef980c": 34,
+            "#0095db": 16,
+            "#ffa300": 14,
+            "#616882": 13,
+            "#fff000": 13,
+            "more ...": -1
+        }
+    },
+    "opmaak > extraInformatieTekstKleur": {
+        "p_missing": 0.271,
+        "p_distinct": 0.03429355281207133,
+        "n_distinct": 25,
+        "type": "Categorical",
+        "n_missing": 271,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "#000000": 408,
+            "#2f3535": 102,
+            "#484848": 59,
+            "#0f282f": 36,
+            "#d27143": 35,
+            "#9f9fc5": 31,
+            "#004992": 13,
+            "#29d3df": 11,
+            "#ffffff": 7,
+            "#24402e": 6,
+            "#333333": 3,
+            "#d81a23": 2,
+            "#6f1425": 2,
+            "#4a4d4d": 2,
+            "#00456e": 2,
+            "#2bacde": 1,
+            "#572932": 1,
+            "#383639": 1,
+            "#31363b": 1,
+            "#00225f": 1,
+            "#001f5b": 1,
+            "#af9800": 1,
+            "#0c2d83": 1,
+            "#333f48": 1,
+            "#3a4d89": 1
+        }
+    },
+    "opmaak > extraInformatieAchtergrondKleur": {
+        "p_missing": 0.271,
+        "p_distinct": 0.03017832647462277,
+        "n_distinct": 22,
+        "type": "Categorical",
+        "n_missing": 271,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "#ffffff": 418,
+            "#f0efef": 102,
+            "#f6f6f6": 45,
+            "#fff17c": 36,
+            "#ef980c": 34,
+            "#eeeeee": 22,
+            "#e7e3e2": 13,
+            "#ea5a40": 11,
+            "#f3f3f4": 11,
+            "#d9f4fd": 9,
+            "#f2f2f2": 9,
+            "#f3f3f3": 4,
+            "#009bdb": 3,
+            "#f4f3f2": 3,
+            "#fc4c02": 2,
+            "#e30512": 1,
+            "#ffed00": 1,
+            "#667b69": 1,
+            "#00ca88": 1,
+            "#7c2855": 1,
+            "#ffd923": 1,
+            "#cccccc": 1
+        }
+    },
+    "opmaak > bedrijfsInfoKnopTekstKleur": {
+        "p_missing": 0.271,
+        "p_distinct": 0.015089163237311385,
+        "n_distinct": 11,
+        "type": "Categorical",
+        "n_missing": 271,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "#ffffff": 377,
+            "#000000": 105,
+            "#2f3535": 102,
+            "#484848": 59,
+            "#0f282f": 36,
+            "#9f9fc5": 31,
+            "#004992": 13,
+            "#672146": 3,
+            "#463a2e": 1,
+            "#ffd923": 1,
+            "#3a4d89": 1
+        }
+    },
+    "opmaak > bedrijfsInfoKnopAchtergrondKleur": {
+        "p_missing": 0.271,
+        "p_distinct": 0.1083676268861454,
+        "n_distinct": 79,
+        "type": "Text",
+        "n_missing": 271,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "#b7dbe7": 102,
+            "#2f80ed": 95,
+            "#2ec4b6": 59,
+            "#10a2be": 50,
+            "#ffffff": 47,
+            "#fff17c": 36,
+            "#ef980c": 34,
+            "#a61f69": 31,
+            "#000000": 20,
+            "#4c1a6b": 16,
+            "more ...": -1
+        }
+    },
+    "opmaak > sollicitatieKnopTekstKleur": {
+        "p_missing": 0.271,
+        "p_distinct": 0.019204389574759947,
+        "n_distinct": 14,
+        "type": "Categorical",
+        "n_missing": 271,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "#ffffff": 376,
+            "#2f3535": 102,
+            "#000000": 69,
+            "#484848": 59,
+            "#0f282f": 36,
+            "#d27143": 35,
+            "#9f9fc5": 31,
+            "#004992": 13,
+            "#672146": 3,
+            "#ff6e08": 1,
+            "#463a2e": 1,
+            "#ffd923": 1,
+            "#012169": 1,
+            "#3a4d89": 1
+        }
+    },
+    "opmaak > sollicitatieKnopAchtergrondKleur": {
+        "p_missing": 0.271,
+        "p_distinct": 0.11248285322359397,
+        "n_distinct": 82,
+        "type": "Text",
+        "n_missing": 271,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "#b7dbe7": 102,
+            "#2f80ed": 95,
+            "#2ec4b6": 59,
+            "#000000": 53,
+            "#10a2be": 50,
+            "#fff17c": 36,
+            "#ef980c": 34,
+            "#a61f69": 31,
+            "#0095db": 16,
+            "#ffa300": 14,
+            "more ...": -1
+        }
+    },
+    "opmaak > hoofdingAchtergrondKleur": {
+        "p_missing": 0.271,
+        "p_distinct": 0.00823045267489712,
+        "n_distinct": 6,
+        "type": "Categorical",
+        "n_missing": 271,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "#ffffff": 664,
+            "#dbdbde": 59,
+            "#ff7070": 3,
+            "#e30512": 1,
+            "#667b69": 1,
+            "#ff4b00": 1
+        }
+    },
+    "opmaak > hoofdingAfbeelding > url": {
+        "p_missing": 0.271,
+        "p_distinct": 0.12208504801097393,
+        "n_distinct": 89,
+        "type": "Text",
+        "n_missing": 271,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/3770/header.jpg": 102,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/4150/header.png": 95,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/2973/header.png": 59,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/3259/header.png": 50,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/4533/header.png": 36,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/3447/header.jpg": 35,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/2972/header.png": 34,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/4619/header.jpg": 31,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/1583/header.jpg": 16,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/3045/header.jpg": 13,
+            "more ...": -1
+        }
+    },
+    "opmaak > hoofdingAfbeelding > altText": {
+        "p_missing": 0.271,
+        "p_distinct": 0.0013717421124828531,
+        "n_distinct": 1,
+        "type": "Categorical",
+        "n_missing": 271,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Hoofding afbeelding": 729
+        }
+    },
+    "opmaak > hoofdingAfbeeldingMobiel > url": {
+        "p_missing": 0.271,
+        "p_distinct": 0.12208504801097393,
+        "n_distinct": 89,
+        "type": "Text",
+        "n_missing": 271,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/3770/mobileLogo.jpg": 102,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/4150/mobileLogo.png": 95,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/2973/mobileLogo.png": 59,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/3259/mobileLogo.jpg": 50,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/4533/mobileLogo.png": 36,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/3447/mobileLogo.png": 35,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/2972/mobileLogo.png": 34,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/4619/mobileLogo.jpg": 31,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/1583/mobileLogo.jpg": 16,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/3045/mobileLogo.jpg": 13,
+            "more ...": -1
+        }
+    },
+    "opmaak > hoofdingAfbeeldingMobiel > altText": {
+        "p_missing": 0.271,
+        "p_distinct": 0.0013717421124828531,
+        "n_distinct": 1,
+        "type": "Categorical",
+        "n_missing": 271,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Mobiele hoofding afbeelding": 729
+        }
+    },
+    "opmaak > signatuurAfbeelding > url": {
+        "p_missing": 0.271,
+        "p_distinct": 0.12208504801097393,
+        "n_distinct": 89,
+        "type": "Text",
+        "n_missing": 271,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/3770/signatuur.jpg": 102,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/4150/signatuur.png": 95,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/2973/signatuur.png": 59,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/3259/signatuur.png": 50,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/4533/signatuur.png": 36,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/3447/signatuur.png": 35,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/2972/signatuur.png": 34,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/4619/signatuur.jpg": 31,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/1583/signatuur.jpg": 16,
+            "https://cdn.app-prd-cdn.aws.vdab-prd.be/vindeenjob/templates/vacatures/3045/signatuur.jpg": 13,
+            "more ...": -1
+        }
+    },
+    "opmaak > signatuurAfbeelding > altText": {
+        "p_missing": 0.271,
+        "p_distinct": 0.0013717421124828531,
+        "n_distinct": 1,
+        "type": "Categorical",
+        "n_missing": 271,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Signatuur afbeelding bedrijf": 729
+        }
+    },
+    "opmaak > signatuurBedrijfsUrl": {
+        "p_missing": 0.271,
+        "p_distinct": 0.12071330589849108,
+        "n_distinct": 88,
+        "type": "Text",
+        "n_missing": 271,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "http://www.jobat.be/nl/": 102,
+            "https://editx.eu/nl/it-jobs": 95,
+            "https://it.lga.jobs/": 59,
+            "https://www.ictjob.be/nl/": 50,
+            "https://www.kwery.be/": 36,
+            "https://www.lagom.jobs/nl": 35,
+            "http://www.engineering.lga.jobs/": 34,
+            "http://www.sparkjobs.be/": 31,
+            "https://www.unique.be/": 16,
+            "http://www.actief.be/nl": 13,
+            "more ...": -1
+        }
+    },
+    "opmaak > vacatureTemplateId": {
+        "p_missing": 0.271,
+        "mean": 3573.6941015089164,
+        "p_distinct": 0.12208504801097393,
+        "max": 4975.0,
+        "n_distinct": 89,
+        "type": "Numeric",
+        "n_missing": 271,
+        "std": 736.344765524384,
+        "min": 1559.0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "3770.0": 102,
+            "4150.0": 95,
+            "2973.0": 59,
+            "3259.0": 50,
+            "4533.0": 36,
+            "3447.0": 35,
+            "2972.0": 34,
+            "4619.0": 31,
+            "1583.0": 16,
+            "3045.0": 13,
+            "more ...": -1
+        }
+    },
+    "leverancier > contactMethode > fysiekeLocatie > gestructureerdAdres > gemeente": {
+        "p_missing": 0.0,
+        "p_distinct": 0.115,
+        "n_distinct": 115,
+        "type": "Text",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "ANTWERPEN": 150,
+            "SINT-DENIJS-WESTREM": 107,
+            "BRUSSEL": 98,
+            "CHARLEROI": 95,
+            "GENT": 50,
+            "ZWIJNAARDE": 41,
+            "BRUGGE": 30,
+            "HOOGLEDE": 27,
+            "ROESELARE": 26,
+            "KORTRIJK": 22,
+            "more ...": -1
+        }
+    },
+    "leverancier > contactMethode > fysiekeLocatie > gestructureerdAdres > nummer": {
+        "p_missing": 0.002,
+        "p_distinct": 0.14228456913827656,
+        "n_distinct": 142,
+        "type": "Text",
+        "n_missing": 2,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "2": 208,
+            "1146": 70,
+            "17": 56,
+            "70": 51,
+            "74": 43,
+            "91": 31,
+            "88": 29,
+            "311A": 26,
+            "1": 24,
+            "26": 18,
+            "more ...": -1
+        }
+    },
+    "leverancier > contactMethode > fysiekeLocatie > gestructureerdAdres > postcode": {
+        "p_missing": 0.0,
+        "p_distinct": 0.121,
+        "n_distinct": 121,
+        "type": "Text",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "9051": 138,
+            "2050": 105,
+            "1000": 98,
+            "6000": 95,
+            "9052": 41,
+            "8830": 28,
+            "8000": 27,
+            "8800": 26,
+            "2018": 23,
+            "8500": 21,
+            "more ...": -1
+        }
+    },
+    "leverancier > contactMethode > fysiekeLocatie > gestructureerdAdres > straat": {
+        "p_missing": 0.002,
+        "p_distinct": 0.2605210420841683,
+        "n_distinct": 260,
+        "type": "Text",
+        "n_missing": 2,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "KATWILGWEG": 102,
+            "QUAI PAUL VERLAINE": 95,
+            "Kortrijksesteenweg": 85,
+            "Wolstraat": 50,
+            "RIJVISSCHEPARK": 40,
+            "Leiepark": 34,
+            "POORTAKKERSTRAAT": 31,
+            "Havenlaan": 29,
+            "Bruggesteenweg": 27,
+            "Heidestraat": 14,
+            "more ...": -1
+        }
+    },
+    "leverancier > contactMethode > fysiekeLocatie > gestructureerdAdres > straatNummerPostbus": {
+        "p_missing": 0.0,
+        "p_distinct": 0.286,
+        "n_distinct": 286,
+        "type": "Text",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "KATWILGWEG 2": 102,
+            "QUAI PAUL VERLAINE 2 Postbus 2": 95,
+            "Kortrijksesteenweg 1146": 70,
+            "Wolstraat 70": 50,
+            "RIJVISSCHEPARK 74": 40,
+            "Leiepark 17": 34,
+            "POORTAKKERSTRAAT 91 Postbus 101": 31,
+            "Havenlaan 88 Postbus 60": 29,
+            "Bruggesteenweg 311A Postbus B3": 20,
+            "Heidestraat 17": 14,
+            "more ...": -1
+        }
+    },
+    "leverancier > contactMethode > fysiekeLocatie > gestructureerdAdres > lijn": {
+        "p_missing": 0.0,
+        "p_distinct": 0.287,
+        "n_distinct": 287,
+        "type": "Text",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "KATWILGWEG 2 2050 ANTWERPEN": 102,
+            "QUAI PAUL VERLAINE 2 Postbus 2 6000 CHARLEROI": 95,
+            "Kortrijksesteenweg 1146 9051 SINT-DENIJS-WESTREM": 70,
+            "Wolstraat 70 1000 BRUSSEL": 50,
+            "RIJVISSCHEPARK 74 9052 ZWIJNAARDE": 40,
+            "Leiepark 17 9051 SINT-DENIJS-WESTREM": 34,
+            "POORTAKKERSTRAAT 91 Postbus 101 9051 GENT": 31,
+            "Havenlaan 88 Postbus 60 1000 BRUSSEL": 29,
+            "Bruggesteenweg 311A Postbus B3 8830 HOOGLEDE": 20,
+            "Heidestraat 17 9820 MERELBEKE-MELLE": 14,
+            "more ...": -1
+        }
+    },
+    "leverancier > contactMethode > fysiekeLocatie > land > code": {
+        "p_missing": 0.0,
+        "p_distinct": 0.002,
+        "n_distinct": 2,
+        "type": "Categorical",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "BE": 997,
+            "NL": 3
+        }
+    },
+    "leverancier > contactMethode > fysiekeLocatie > land > label": {
+        "p_missing": 0.0,
+        "p_distinct": 0.002,
+        "n_distinct": 2,
+        "type": "Categorical",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "België": 997,
+            "Nederland": 3
+        }
+    },
+    "leverancier > contactMethode > fysiekeLocatie > land > kortLabel": {
+        "p_missing": 0.0,
+        "p_distinct": 0.002,
+        "n_distinct": 2,
+        "type": "Categorical",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "België": 997,
+            "Nederland": 3
+        }
+    },
+    "leverancier > contactMethode > fysiekeLocatie > naam": {
+        "p_missing": 0.0,
+        "p_distinct": 0.264,
+        "n_distinct": 264,
+        "type": "Text",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Jobat": 102,
+            "Editx": 95,
+            "LGA IT": 59,
+            "ictjob.be": 50,
+            "Kwery": 35,
+            "LGA Engineering": 34,
+            "Spark": 31,
+            "Vlaanderen connect.": 29,
+            "Lagom Engineering West-Vlaanderen": 20,
+            "Lagom Engineering Oost-Vlaanderen": 14,
+            "more ...": -1
+        }
+    },
+    "leverancier > type": {
+        "p_missing": 0.0,
+        "p_distinct": 0.003,
+        "n_distinct": 3,
+        "type": "Categorical",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "INTERMEDIAIREN": 523,
+            "DERDENLEVERANCIERS": 259,
+            "GEWONE_BEDRIJVEN": 218
+        }
+    },
+    "leverancier > naam": {
+        "p_missing": 0.0,
+        "p_distinct": 0.264,
+        "n_distinct": 264,
+        "type": "Text",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Jobat": 102,
+            "Editx": 95,
+            "LGA IT": 59,
+            "ictjob.be": 50,
+            "Kwery": 35,
+            "LGA Engineering": 34,
+            "Spark": 31,
+            "Vlaanderen connect.": 29,
+            "Lagom Engineering West-Vlaanderen": 20,
+            "Lagom Engineering Oost-Vlaanderen": 14,
+            "more ...": -1
+        }
+    },
+    "leverancier > gemandateerd": {
+        "p_missing": 0.0,
+        "p_distinct": 0.002,
+        "n_distinct": 2,
+        "type": "Boolean",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "true": 846,
+            "false": 154
+        }
+    },
+    "leverancier > organisatie > id": {
+        "p_missing": 0.0,
+        "mean": 9864694.86,
+        "p_distinct": 0.291,
+        "max": 10893669,
+        "n_distinct": 291,
+        "type": "Numeric",
+        "n_missing": 0,
+        "std": 2710185.589547996,
+        "min": 352,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "10684904": 102,
+            "10714258": 95,
+            "10697591": 59,
+            "10409921": 50,
+            "10757886": 36,
+            "10697563": 34,
+            "10777105": 31,
+            "10628668": 29,
+            "10692008": 20,
+            "10838862": 14,
+            "more ...": -1
+        }
+    },
+    "leverancier > organisatie > naam": {
+        "p_missing": 0.0,
+        "p_distinct": 0.275,
+        "n_distinct": 275,
+        "type": "Text",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Jobat": 102,
+            "Editx": 95,
+            "LGA IT": 59,
+            "ictjob.be": 50,
+            "KWERY": 36,
+            "LGA Engineering": 34,
+            "Spark": 31,
+            "Vlaanderen connect.": 29,
+            "Lagom Engineering West-Vlaanderen": 20,
+            "Lagom Engineering Oost-Vlaanderen": 14,
+            "more ...": -1
+        }
+    },
+    "leverancier > organisatie > bedrijvenGalerijId": {
+        "p_missing": 0.272,
+        "mean": 3571.6758241758243,
+        "p_distinct": 0.12225274725274725,
+        "max": 4974.0,
+        "n_distinct": 89,
+        "type": "Numeric",
+        "n_missing": 272,
+        "std": 738.6030882691294,
+        "min": 1567.0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "3769.0": 102,
+            "4151.0": 95,
+            "2970.0": 59,
+            "3258.0": 50,
+            "4534.0": 36,
+            "3446.0": 35,
+            "2969.0": 34,
+            "4618.0": 31,
+            "1584.0": 16,
+            "3041.0": 13,
+            "more ...": -1
+        }
+    },
+    "leverancier > organisatie > omschrijving": {
+        "p_missing": 0.223,
+        "p_distinct": 0.20205920205920205,
+        "n_distinct": 157,
+        "type": "Text",
+        "n_missing": 223,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Le Grand & Associates is gespecialiseerd in de selectie en rekrutering van kwaliteitsvolle professionals in de financiële en juridische sector. Door onze uitgebreide kennis in deze specifieke markten kunnen wij klant en kandidaat perfect begeleiden en ondersteunen doorheen het proces. \r\n\r\nWij zijn een ambitieus, bloeiend en groeiend bedrijf dat geen enkele uitdaging uit de weg gaat. Met ons no cure, no pay-principe gaan we voor u tot het uiterste. Onze consultants zijn voortdurend op zoek naar personen die zowel qua karakter als op gebied van skills perfect aansluiten bij het profiel van uw bedrijf: een harmonieuze match vinden is onze key priority.": 104,
+            "more ...": -1
+        }
+    },
+    "leverancier > organisatie > website": {
+        "p_missing": 0.171,
+        "p_distinct": 0.23281061519903498,
+        "n_distinct": 193,
+        "type": "Text",
+        "n_missing": 171,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "http://www.legrand-associates.com": 104,
+            "https://editx.eu/nl/it-jobs": 95,
+            "http://www.ictjob.be": 50,
+            "http://www.kwery.be": 36,
+            "http://www.sparkjobs.be": 31,
+            "http://www.vlaanderenconnect.be": 29,
+            "http://www.tecjobz.be": 27,
+            "https://www.lagom.jobs/": 14,
+            "http://www.unique.be": 14,
+            "http://kingfisher-recruitment.be": 13,
+            "more ...": -1
+        }
+    },
+    "leverancier > organisatie > prioritair": {
+        "p_missing": 0.0,
+        "p_distinct": 0.002,
+        "n_distinct": 2,
+        "type": "Boolean",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "false": 896,
+            "true": 104
+        }
+    },
+    "leverancier > organisatie > externeLinks": {
+        "p_missing": 0.0,
+        "type": "Unsupported",
+        "n_missing": 0,
+        "n": 1000
+    },
+    "leverancier > organisatie > gemeente": {
+        "p_missing": 0.0,
+        "p_distinct": 0.112,
+        "n_distinct": 112,
+        "type": "Text",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "ANTWERPEN": 144,
+            "BRUSSEL": 103,
+            "CHARLEROI": 95,
+            "SINT-DENIJS-WESTREM": 94,
+            "GENT": 68,
+            "ZWIJNAARDE": 43,
+            "ROESELARE": 29,
+            "HOOGLEDE": 28,
+            "KORTRIJK": 21,
+            "HERENTALS": 18,
+            "more ...": -1
+        }
+    },
+    "profiel > tewerkstellingsLocatie > bedrijfsLocatie > gestructureerdAdres > gemeente": {
+        "p_missing": 0.129,
+        "p_distinct": 0.20321469575200918,
+        "n_distinct": 177,
+        "type": "Text",
+        "n_missing": 129,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "BRUSSEL": 73,
+            "ROESELARE": 60,
+            "ANTWERPEN": 52,
+            "GENT": 44,
+            "KORTRIJK": 32,
+            "BRUGGE": 26,
+            "MECHELEN": 25,
+            "KONTICH": 22,
+            "HERENTALS": 21,
+            "HASSELT": 19,
+            "more ...": -1
+        }
+    },
+    "profiel > tewerkstellingsLocatie > bedrijfsLocatie > gestructureerdAdres > nummer": {
+        "p_missing": 0.827,
+        "p_distinct": 0.3815028901734104,
+        "n_distinct": 66,
+        "type": "Text",
+        "n_missing": 827,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "88": 32,
+            "1": 14,
+            "3": 10,
+            "75": 8,
+            "2": 8,
+            "14": 7,
+            "20": 5,
+            "9": 5,
+            "28": 4,
+            "4": 4,
+            "more ...": -1
+        }
+    },
+    "profiel > tewerkstellingsLocatie > bedrijfsLocatie > gestructureerdAdres > postcode": {
+        "p_missing": 0.129,
+        "p_distinct": 0.21239954075774972,
+        "n_distinct": 185,
+        "type": "Text",
+        "n_missing": 129,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "1000": 73,
+            "8800": 60,
+            "9000": 44,
+            "2000": 32,
+            "8500": 31,
+            "8000": 26,
+            "2800": 25,
+            "2550": 22,
+            "2200": 21,
+            "3500": 18,
+            "more ...": -1
+        }
+    },
+    "profiel > tewerkstellingsLocatie > bedrijfsLocatie > gestructureerdAdres > straat": {
+        "p_missing": 0.827,
+        "p_distinct": 0.6242774566473989,
+        "n_distinct": 108,
+        "type": "Text",
+        "n_missing": 827,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Havenlaan": 27,
+            "Kapeldreef": 7,
+            "Havenlaan 88, 1000 Brussel": 5,
+            "Hof Ter Weze": 4,
+            "Smals vzw\nFonsnylaan 20\n1060 Brussel": 4,
+            "Oude Brusselsestraat 14, 2800 Mechelen": 3,
+            "Blekerijstraat": 3,
+            "Hinnenboomstraat": 3,
+            "Culliganlaan 3, 1831 Machelen": 3,
+            "Vannestes Molenstraat": 3,
+            "more ...": -1
+        }
+    },
+    "profiel > tewerkstellingsLocatie > bedrijfsLocatie > gestructureerdAdres > straatNummerPostbus": {
+        "p_missing": 0.129,
+        "p_distinct": 0.12973593570608496,
+        "n_distinct": 113,
+        "type": "Text",
+        "n_missing": 129,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "": 698,
+            "Havenlaan 88 Postbus 60": 27,
+            "Kapeldreef 75": 7,
+            "Havenlaan 88, 1000 Brussel 88": 5,
+            "Oude Brusselsestraat 14, 2800 Mechelen 14": 4,
+            "Smals vzw\nFonsnylaan 20\n1060 Brussel 20": 4,
+            "Blekerijstraat 23-29": 3,
+            "Edingensesteenweg 196": 3,
+            "Hinnenboomstraat 1 Postbus 2": 3,
+            "Culliganlaan 3, 1831 Machelen 3": 3,
+            "more ...": -1
+        }
+    },
+    "profiel > tewerkstellingsLocatie > bedrijfsLocatie > gestructureerdAdres > lijn": {
+        "p_missing": 0.129,
+        "p_distinct": 0.31917336394948337,
+        "n_distinct": 278,
+        "type": "Text",
+        "n_missing": 129,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "8800 ROESELARE": 52,
+            "9000 GENT": 36,
+            "1000 BRUSSEL": 33,
+            "2000 ANTWERPEN": 30,
+            "Havenlaan 88 Postbus 60 1000 BRUSSEL": 27,
+            "8000 BRUGGE": 26,
+            "8500 KORTRIJK": 25,
+            "2550 KONTICH": 21,
+            "2200 HERENTALS": 19,
+            "2800 MECHELEN": 18,
+            "more ...": -1
+        }
+    },
+    "profiel > tewerkstellingsLocatie > bedrijfsLocatie > land > code": {
+        "p_missing": 0.129,
+        "p_distinct": 0.002296211251435132,
+        "n_distinct": 2,
+        "type": "Categorical",
+        "n_missing": 129,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "BE": 869,
+            "NL": 2
+        }
+    },
+    "profiel > tewerkstellingsLocatie > bedrijfsLocatie > land > label": {
+        "p_missing": 0.129,
+        "p_distinct": 0.002296211251435132,
+        "n_distinct": 2,
+        "type": "Categorical",
+        "n_missing": 129,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "België": 869,
+            "Nederland": 2
+        }
+    },
+    "profiel > tewerkstellingsLocatie > bedrijfsLocatie > land > kortLabel": {
+        "p_missing": 0.129,
+        "p_distinct": 0.002296211251435132,
+        "n_distinct": 2,
+        "type": "Categorical",
+        "n_missing": 129,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "België": 869,
+            "Nederland": 2
+        }
+    },
+    "profiel > tewerkstellingsLocatie > bedrijfsLocatie > naam": {
+        "p_missing": 0.875,
+        "p_distinct": 0.656,
+        "n_distinct": 82,
+        "type": "Text",
+        "n_missing": 875,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Vlaanderen connect.": 27,
+            "imec": 7,
+            "COLRUYT": 3,
+            "JOBUP": 3,
+            "BOGAERTS GREENHOUSE LOGISTICS": 3,
+            "Dehora België": 2,
+            "VDL Bus Roeselare N.V.": 2,
+            "Datashift": 2,
+            "X-Care": 2,
+            "JUVO": 2,
+            "more ...": -1
+        }
+    },
+    "profiel > tewerkstellingsLocatie > regio > code": {
+        "p_missing": 0.116,
+        "p_distinct": 0.06108597285067873,
+        "n_distinct": 54,
+        "type": "Text",
+        "n_missing": 116,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "BE234B": 99,
+            "BE256A": 75,
+            "BE211A": 73,
+            "BE254A": 48,
+            "BE251A": 42,
+            "BE213B": 41,
+            "BE241D": 38,
+            "BE211D": 37,
+            "BE212B": 34,
+            "BE242B": 32,
+            "more ...": -1
+        }
+    },
+    "profiel > tewerkstellingsLocatie > regio > label": {
+        "p_missing": 0.116,
+        "p_distinct": 0.06108597285067873,
+        "n_distinct": 54,
+        "type": "Text",
+        "n_missing": 116,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Regio Gent": 99,
+            "Regio Roeselare - Izegem": 75,
+            "Regio Antwerpen": 73,
+            "Regio Kortrijk": 48,
+            "Regio Brugge": 42,
+            "Regio Herentals - Westerlo": 41,
+            "Regio Vilvoorde - Zaventem": 38,
+            "Regio Kontich - Mortsel - Ranst": 37,
+            "Regio Mechelen": 34,
+            "Regio Leuven": 32,
+            "more ...": -1
+        }
+    },
+    "profiel > tewerkstellingsLocatie > regio > kortLabel": {
+        "p_missing": 0.116,
+        "p_distinct": 0.06108597285067873,
+        "n_distinct": 54,
+        "type": "Text",
+        "n_missing": 116,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Regio Gent": 99,
+            "Regio Roeselare - Izegem": 75,
+            "Regio Antwerpen": 73,
+            "Regio Kortrijk": 48,
+            "Regio Brugge": 42,
+            "Regio Herentals - Westerlo": 41,
+            "Regio Vilvoorde - Zaventem": 38,
+            "Regio Kontich - Mortsel - Ranst": 37,
+            "Regio Mechelen": 34,
+            "Regio Leuven": 32,
+            "more ...": -1
+        }
+    },
+    "profiel > tewerkstellingsLocatie > regioOfAdres": {
+        "p_missing": 0.0,
+        "p_distinct": 0.208,
+        "n_distinct": 208,
+        "type": "Text",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "BRUSSEL": 73,
+            "ROESELARE": 60,
+            "ANTWERPEN": 52,
+            "GENT": 44,
+            "KORTRIJK": 32,
+            "Brussel": 27,
+            "BRUGGE": 26,
+            "MECHELEN": 25,
+            "KONTICH": 22,
+            "HERENTALS": 21,
+            "more ...": -1
+        }
+    },
+    "profiel > dienstregeling > dienstregelingen": {
+        "p_missing": 0.0,
+        "type": "Unsupported",
+        "n_missing": 0,
+        "n": 1000
+    },
+    "profiel > dienstregeling > arbeidsDuur > code": {
+        "p_missing": 0.0,
+        "p_distinct": 0.002,
+        "n_distinct": 2,
+        "type": "Categorical",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "V": 983,
+            "D": 17
+        }
+    },
+    "profiel > dienstregeling > arbeidsDuur > label": {
+        "p_missing": 0.0,
+        "p_distinct": 0.002,
+        "n_distinct": 2,
+        "type": "Categorical",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "voltijds": 983,
+            "deeltijds": 17
+        }
+    },
+    "profiel > dienstregeling > arbeidsDuur > kortLabel": {
+        "p_missing": 0.0,
+        "p_distinct": 0.002,
+        "n_distinct": 2,
+        "type": "Categorical",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "voltijds": 983,
+            "deeltijds": 17
+        }
+    },
+    "profiel > dienstregeling > werkshiften": {
+        "p_missing": 0.0,
+        "type": "Unsupported",
+        "n_missing": 0,
+        "n": 1000
+    },
+    "profiel > sollicitatieInfo > adres > gestructureerdAdres > gemeente": {
+        "p_missing": 0.258,
+        "p_distinct": 0.192722371967655,
+        "n_distinct": 143,
+        "type": "Text",
+        "n_missing": 258,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "ANTWERPEN": 63,
+            "GENT": 56,
+            "BRUSSEL": 41,
+            "HOOGLEDE": 41,
+            "ROESELARE": 40,
+            "KORTRIJK": 28,
+            "MECHELEN": 24,
+            "HERENTALS": 23,
+            "HASSELT": 19,
+            "KONTICH": 19,
+            "more ...": -1
+        }
+    },
+    "profiel > sollicitatieInfo > adres > gestructureerdAdres > nummer": {
+        "p_missing": 0.638,
+        "p_distinct": 0.30386740331491713,
+        "n_distinct": 110,
+        "type": "Text",
+        "n_missing": 638,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "88": 29,
+            "1": 28,
+            "5": 16,
+            "131": 13,
+            "105": 12,
+            "4": 11,
+            "2": 11,
+            "75": 9,
+            "72 1": 9,
+            "26": 9,
+            "more ...": -1
+        }
+    },
+    "profiel > sollicitatieInfo > adres > gestructureerdAdres > postcode": {
+        "p_missing": 0.258,
+        "p_distinct": 0.19811320754716982,
+        "n_distinct": 147,
+        "type": "Text",
+        "n_missing": 258,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "2000": 42,
+            "8830": 41,
+            "1000": 41,
+            "8800": 40,
+            "9051": 36,
+            "8500": 27,
+            "2800": 24,
+            "2200": 23,
+            "9000": 21,
+            "3500": 19,
+            "more ...": -1
+        }
+    },
+    "profiel > sollicitatieInfo > adres > gestructureerdAdres > straat": {
+        "p_missing": 0.624,
+        "p_distinct": 0.5478723404255319,
+        "n_distinct": 206,
+        "type": "Text",
+        "n_missing": 624,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Havenlaan": 29,
+            "Poederleeseweg": 13,
+            "Beelbroekstraat": 12,
+            "Scheldestraat": 10,
+            "Sint-Piterskaai": 9,
+            "Frankrijklei": 8,
+            "Kapeldreef": 7,
+            "Kortrijksesteenweg": 6,
+            "Hoefijzerlaan": 5,
+            "Kempische steenweg": 5,
+            "more ...": -1
+        }
+    },
+    "profiel > sollicitatieInfo > adres > gestructureerdAdres > straatNummerPostbus": {
+        "p_missing": 0.258,
+        "p_distinct": 0.29380053908355797,
+        "n_distinct": 218,
+        "type": "Text",
+        "n_missing": 258,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "": 366,
+            "Havenlaan 88 Postbus 60": 29,
+            "Poederleeseweg 131": 13,
+            "Beelbroekstraat 105 Postbus B": 12,
+            "Sint-Piterskaai 72 1": 9,
+            "Scheldestraat 26 Postbus 1": 9,
+            "Frankrijklei 5 Postbus 0401": 8,
+            "Kapeldreef 75": 7,
+            "Kempische steenweg 305 Postbus 7": 5,
+            "Sint-Michielsstraat 27": 4,
+            "more ...": -1
+        }
+    },
+    "profiel > sollicitatieInfo > adres > gestructureerdAdres > lijn": {
+        "p_missing": 0.258,
+        "p_distinct": 0.42183288409703507,
+        "n_distinct": 313,
+        "type": "Text",
+        "n_missing": 258,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "8830 HOOGLEDE": 38,
+            "9051 GENT": 31,
+            "Havenlaan 88 Postbus 60 1000 BRUSSEL": 29,
+            "8800 ROESELARE": 28,
+            "2550 KONTICH": 19,
+            "2000 ANTWERPEN": 18,
+            "2800 MECHELEN": 17,
+            "Poederleeseweg 131 2200 HERENTALS": 13,
+            "9000 GENT": 12,
+            "8530 HARELBEKE": 12,
+            "more ...": -1
+        }
+    },
+    "profiel > sollicitatieInfo > adres > land > code": {
+        "p_missing": 0.258,
+        "p_distinct": 0.0026954177897574125,
+        "n_distinct": 2,
+        "type": "Categorical",
+        "n_missing": 258,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "BE": 739,
+            "NL": 3
+        }
+    },
+    "profiel > sollicitatieInfo > adres > land > label": {
+        "p_missing": 0.258,
+        "p_distinct": 0.0026954177897574125,
+        "n_distinct": 2,
+        "type": "Categorical",
+        "n_missing": 258,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "België": 739,
+            "Nederland": 3
+        }
+    },
+    "profiel > sollicitatieInfo > adres > land > kortLabel": {
+        "p_missing": 0.258,
+        "p_distinct": 0.0026954177897574125,
+        "n_distinct": 2,
+        "type": "Categorical",
+        "n_missing": 258,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "België": 739,
+            "Nederland": 3
+        }
+    },
+    "profiel > sollicitatieInfo > adres > naam": {
+        "p_missing": 0.483,
+        "p_distinct": 0.34235976789168276,
+        "n_distinct": 177,
+        "type": "Text",
+        "n_missing": 483,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "LGA IT": 59,
+            "Tecjobz": 38,
+            "LGA Engineering": 34,
+            "Spark HR": 31,
+            "Vlaanderen connect.": 29,
+            "Kingfisher IT, Engineering, Supply Chain én Finance & Legal": 13,
+            "Oxida": 12,
+            "The Bee Academy": 12,
+            "vind!": 12,
+            "Le Grand & Associates": 11,
+            "more ...": -1
+        }
+    },
+    "profiel > sollicitatieInfo > contactPersoon > email": {
+        "p_missing": 0.771,
+        "p_distinct": 0.6331877729257642,
+        "n_distinct": 145,
+        "type": "Text",
+        "n_missing": 771,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "selectiesvlaanderenconnect@vlaanderen.be": 25,
+            "hr@thebeeacademy.be": 12,
+            "outsourcing@bizztalent.be": 8,
+            "jobs@newpointprofessionals.be": 5,
+            "info@konnekt.be": 5,
+            "Jobs@HEADHUNTER.vlaanderen": 4,
+            "betterwork4me@gmail.com": 4,
+            "gitte.collier@vlaanderen.be": 4,
+            "fien.desmet@vintecc.com": 3,
+            "jobs@bogaertsgl.com": 3,
+            "more ...": -1
+        }
+    },
+    "profiel > sollicitatieInfo > contactPersoon > telefoon": {
+        "p_missing": 0.8,
+        "p_distinct": 0.715,
+        "n_distinct": 143,
+        "type": "Text",
+        "n_missing": 800,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "0000000000": 12,
+            "/": 6,
+            "0492183185": 5,
+            "03 689 14 91": 5,
+            "050893807": 4,
+            "09 298 01 07": 4,
+            "0477/97.33.74": 4,
+            "056 18 52 90": 3,
+            "03 600 79 85": 3,
+            "033141801": 3,
+            "more ...": -1
+        }
+    },
+    "profiel > sollicitatieInfo > contactPersoon > familienaam": {
+        "p_missing": 0.0,
+        "p_distinct": 0.407,
+        "n_distinct": 407,
+        "type": "Text",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Verantwoordelijke Human Resources": 102,
+            "LGA IT": 59,
+            "Kwery ": 35,
+            "LGA Engineering": 34,
+            "Ellen Vanderschueren": 19,
+            "The Bee Academy": 12,
+            "-": 12,
+            "Le Grand & Associates": 11,
+            "AGO Jobs & HR": 10,
+            "Julie Sljepcevic": 10,
+            "more ...": -1
+        }
+    },
+    "profiel > sollicitatieInfo > contactPersoon > volledigeNaam": {
+        "p_missing": 0.0,
+        "p_distinct": 0.407,
+        "n_distinct": 407,
+        "type": "Text",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Verantwoordelijke Human Resources": 102,
+            "LGA IT": 59,
+            "Kwery ": 35,
+            "LGA Engineering": 34,
+            "Ellen Vanderschueren": 19,
+            "The Bee Academy": 12,
+            "-": 12,
+            "Le Grand & Associates": 11,
+            "AGO Jobs & HR": 10,
+            "Julie Sljepcevic": 10,
+            "more ...": -1
+        }
+    },
+    "profiel > sollicitatieInfo > logischeLocatie > webadres": {
+        "p_missing": 0.154,
+        "p_distinct": 0.9964539007092199,
+        "n_distinct": 843,
+        "type": "Text",
+        "n_missing": 154,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "https://www.aplitrak.com/?adid=RXZ5TG9leXMuODQyMTUuMTAyMEBodWJvLmFwbGl0cmFrLmNvbQ": 2,
+            "https://ses.howest.be": 2,
+            "https://www.squarecity.be/jobs/senior-recruiter/": 2,
+            "https://www.ictjob.be/en/apply/atcon-global-delivery-lead-program-manager/339124?cid=Partner_VDAB": 1,
+            "https://www.jobat.be/nl/jobs/strategisch-aankoper-productieomgeving/job_4683612?utm_source=vdab&utm_medium=jobs&utm_campaign=partner": 1,
+            "https://www.mmimir.nu/track/a57ee11e-d5d3-458e-b359-b5afc7f2f5cf": 1,
+            "https://www.uantwerpen.be/nl/jobs/vacatures/ap/?q=4083&descr=Doctoraatsbursaal-in-de-theoretische-en-computationele-materiaalfysica": 1,
+            "https://www.mmimir.nu/track/f60bcd5a-c0f2-48dd-9b80-1bb9b999648b": 1,
+            "https://www.aplitrak.com/?adid=Z2VvZmZyZXkuMDQ4MjkuMTAyMEBwZW5zYWVydC5hcGxpdHJhay5jb20": 1,
+            "http://www.experza.be/nl/vacatures/30081": 1,
+            "more ...": -1
+        }
+    },
+    "profiel > sollicitatieInfo > viaBrief": {
+        "p_missing": 0.0,
+        "p_distinct": 0.002,
+        "n_distinct": 2,
+        "type": "Boolean",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "false": 991,
+            "true": 9
+        }
+    },
+    "profiel > sollicitatieInfo > viaVDAB": {
+        "p_missing": 0.0,
+        "p_distinct": 0.002,
+        "n_distinct": 2,
+        "type": "Boolean",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "false": 759,
+            "true": 241
+        }
+    },
+    "profiel > sollicitatieInfo > viaBezoek": {
+        "p_missing": 0.0,
+        "p_distinct": 0.002,
+        "n_distinct": 2,
+        "type": "Boolean",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "false": 864,
+            "true": 136
+        }
+    },
+    "profiel > sollicitatieInfo > extraInfo > html": {
+        "p_missing": 0.829,
+        "p_distinct": 0.7719298245614035,
+        "n_distinct": 132,
+        "type": "Text",
+        "n_missing": 829,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "<p><span>Vlaanderen Connect werkt met eigen loonbarema's. De salarissimulator op werkenvoorvlaanderen.be is dus niet van toepassing op deze functie.</span></p>": 13,
+            "<b>Nieuw: Mobiel solliciteren</b> met je job board CV!": 8,
+            "<p><span>Vlaanderen connect. werkt met eigen loonbarema's. De salarissimulator op werkenvoorvlaanderen.be is dus niet van toepassing op deze functie.</span></p>": 4,
+            "<p><span lang=\"EN-GB\">Interesse in deze job? </span><span>Of discreet op zoek naar een nieuwe uitdaging binnen IT, neem zeker contact met ons op. Wij nodigen u graag uit voor een kennismakend gesprek. </span></p> \n<p><span>Info@konnekt.be tav Amaury Locy - 09 298 01 07</span></p>": 4,
+            "<p>Vlaanderen Connect werkt met eigen loonbarema's. De salarissimulator op werkenvoorvlaanderen.be is dus niet van toepassing op deze functie.</p>": 3,
+            "more ...": -1
+        }
+    },
+    "profiel > sollicitatieInfo > extraInfo > plainText": {
+        "p_missing": 0.829,
+        "p_distinct": 0.7368421052631579,
+        "n_distinct": 126,
+        "type": "Text",
+        "n_missing": 829,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Vlaanderen Connect werkt met eigen loonbarema's. De salarissimulator op werkenvoorvlaanderen.be is dus niet van toepassing op deze functie.": 19,
+            "Nieuw: Mobiel solliciteren met je job board CV!": 8,
+            "Vlaanderen connect. werkt met eigen loonbarema's. De salarissimulator op werkenvoorvlaanderen.be is dus niet van toepassing op deze functie.": 6,
+            "Interesse in deze job? Of discreet op zoek naar een nieuwe uitdaging binnen IT, neem zeker contact met ons op. Wij nodigen u graag uit voor een kennismakend gesprek. Info@konnekt.be tav Amaury Locy - 09 298 01 07": 4,
+            "Heb je interesse? Kom dan langs in ons kantoor of contacteer ons via +32 14 88 88 03 of www.ago.jobs en schrijf je in!": 3,
+            "Vlaanderen connect. werkt met eigen loonbarema's. De salarissimulator op werkenvoorvlaanderen.beis dus niet van toepassing op deze functie.": 3,
+            "more ...": -1
+        }
+    },
+    "profiel > sollicitatieInfo > extraInfo > markdown": {
+        "p_missing": 0.829,
+        "p_distinct": 0.7368421052631579,
+        "n_distinct": 126,
+        "type": "Text",
+        "n_missing": 829,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Vlaanderen Connect werkt met eigen loonbarema's. De salarissimulator op werkenvoorvlaanderen.be is dus niet van toepassing op deze functie.": 19,
+            "**Nieuw: Mobiel solliciteren** met je job board CV!": 8,
+            "Vlaanderen connect. werkt met eigen loonbarema's. De salarissimulator op werkenvoorvlaanderen.be is dus niet van toepassing op deze functie.": 6,
+            "Interesse in deze job? Of discreet op zoek naar een nieuwe uitdaging binnen IT, neem zeker contact met ons op. Wij nodigen u graag uit voor een kennismakend gesprek. \n\nInfo@konnekt.be tav Amaury Locy - 09 298 01 07": 4,
+            "Heb je interesse? Kom dan langs in ons kantoor of contacteer ons via +32 14 88 88 03 of www.ago.jobs en schrijf je in!": 3,
+            "Vlaanderen connect. werkt met eigen loonbarema's. De salarissimulator op werkenvoorvlaanderen.beis dus niet van toepassing op deze functie.": 3,
+            "more ...": -1
+        }
+    },
+    "profiel > aanbod > aanbodEnVoordelen > html": {
+        "p_missing": 0.018,
+        "p_distinct": 0.8676171079429735,
+        "n_distinct": 852,
+        "type": "Text",
+        "n_missing": 18,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "-": 21,
+            "<p><strong><span lang=\"NL\">Diversiteit:</span></strong><span lang=\"NL\"> Projecten in sectoren zoals fintech, healthcare, retail en overheid.</span></p> \n<p><strong><span lang=\"NL\">Groei:</span></strong><span lang=\"NL\"> Opleidingsbudget voor certificeringen.</span></p> \n<p><strong><span lang=\"NL\">Flexibiliteit:</span></strong><span lang=\"NL\"> Hybride werken en keuze uit projecten die aansluiten bij jouw interesses.</span></p> \n<p><strong>Part of the hive:</strong> Samenwerking met collega experts in cloud, security en data.</p> \n<p><strong><span lang=\"NL\">Salaris:</span></strong><span lang=\"NL\"> Competetief pakket met bonusregeling, afhankelijk van ervaring en inzet.</span></p>": 12,
+            "more ...": -1
+        }
+    },
+    "profiel > aanbod > aanbodEnVoordelen > plainText": {
+        "p_missing": 0.018,
+        "p_distinct": 0.8238289205702648,
+        "n_distinct": 809,
+        "type": "Text",
+        "n_missing": 18,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "-": 21,
+            "Diversiteit: Projecten in sectoren zoals fintech, healthcare, retail en overheid. Groei: Opleidingsbudget voor certificeringen. Flexibiliteit: Hybride werken en keuze uit projecten die aansluiten bij jouw interesses. Part of the hive: Samenwerking met collega experts in cloud, security en data. Salaris: Competetief pakket met bonusregeling, afhankelijk van ervaring en inzet.": 12,
+            "Wat mag je verwachten? Boeiende projecten bij gerenommeerde klanten, waar je echt het verschil kan maken Een cultuur waarin kennisdeling en continue groei centraal staan Opleidingsmogelijkheden afgestemd op jouw ambities en loopbaanpad Een dynamische omgeving met ruimte om door te groeien binnen een snelgroeiend bedrijf Veel autonomie, gecombineerd met de juiste ondersteuning wanneer je die nodig hebt Een competitief loonpakket, aangevuld met mooie extralegale voordelen Een uitgebreide hospitalisatie- en groepsverzekering Een stijlvolle bedrijfswagen waarmee je professioneel voor de dag komt": 11,
+            "more ...": -1
+        }
+    },
+    "profiel > aanbod > aanbodEnVoordelen > markdown": {
+        "p_missing": 0.018,
+        "p_distinct": 0.8411405295315683,
+        "n_distinct": 826,
+        "type": "Text",
+        "n_missing": 18,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "\\-": 21,
+            "**Diversiteit:** Projecten in sectoren zoals fintech, healthcare, retail en overheid.\n\n**Groei:** Opleidingsbudget voor certificeringen.\n\n**Flexibiliteit:** Hybride werken en keuze uit projecten die aansluiten bij jouw interesses.\n\n**Part of the hive:** Samenwerking met collega experts in cloud, security en data.\n\n**Salaris:** Competetief pakket met bonusregeling, afhankelijk van ervaring en inzet.": 12,
+            "more ...": -1
+        }
+    },
+    "profiel > vereisteKwalificaties > html": {
+        "p_missing": 0.016,
+        "p_distinct": 0.9095528455284553,
+        "n_distinct": 895,
+        "type": "Text",
+        "n_missing": 16,
+        "n": 1000,
+        "value_counts_without_nan": {
+            ".": 8,
+            "-": 8,
+            "more ...": -1
+        }
+    },
+    "profiel > vereisteKwalificaties > plainText": {
+        "p_missing": 0.016,
+        "p_distinct": 0.8699186991869918,
+        "n_distinct": 856,
+        "type": "Text",
+        "n_missing": 16,
+        "n": 1000,
+        "value_counts_without_nan": {
+            ".": 8,
+            "-": 8,
+            "more ...": -1
+        }
+    },
+    "profiel > vereisteKwalificaties > markdown": {
+        "p_missing": 0.016,
+        "p_distinct": 0.8810975609756098,
+        "n_distinct": 867,
+        "type": "Text",
+        "n_missing": 16,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "\\-": 8,
+            ".": 8,
+            "more ...": -1
+        }
+    },
+    "profiel > voorgesteldeArbeidsovereenkomst > arbeidscontract > code": {
+        "p_missing": 0.112,
+        "p_distinct": 0.0022522522522522522,
+        "n_distinct": 2,
+        "type": "Categorical",
+        "n_missing": 112,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "ONBEPAALD": 881,
+            "BEPAALD": 7
+        }
+    },
+    "profiel > voorgesteldeArbeidsovereenkomst > arbeidscontract > label": {
+        "p_missing": 0.112,
+        "p_distinct": 0.0022522522522522522,
+        "n_distinct": 2,
+        "type": "Categorical",
+        "n_missing": 112,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "onbepaalde duur": 881,
+            "bepaalde duur": 7
+        }
+    },
+    "profiel > voorgesteldeArbeidsovereenkomst > arbeidscontract > kortLabel": {
+        "p_missing": 0.112,
+        "p_distinct": 0.0022522522522522522,
+        "n_distinct": 2,
+        "type": "Categorical",
+        "n_missing": 112,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "onbepaalde duur": 881,
+            "bepaalde duur": 7
+        }
+    },
+    "profiel > voorgesteldeArbeidsovereenkomst > zoSpoedigMogelijkStarten": {
+        "p_missing": 0.0,
+        "p_distinct": 0.002,
+        "n_distinct": 2,
+        "type": "Boolean",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "false": 576,
+            "true": 424
+        }
+    },
+    "profiel > voorgesteldeArbeidsovereenkomst > arbeidscontractLijn": {
+        "p_missing": 0.112,
+        "p_distinct": 0.0022522522522522522,
+        "n_distinct": 2,
+        "type": "Categorical",
+        "n_missing": 112,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "onbepaalde duur": 881,
+            "bepaalde duur": 7
+        }
+    },
+    "profiel > beroepCompetenties": {
+        "p_missing": 0.0,
+        "type": "Unsupported",
+        "n_missing": 0,
+        "n": 1000
+    },
+    "profiel > persoonsGebondenCompetenties": {
+        "p_missing": 0.0,
+        "type": "Unsupported",
+        "n_missing": 0,
+        "n": 1000
+    },
+    "profiel > studies": {
+        "p_missing": 0.0,
+        "type": "Unsupported",
+        "n_missing": 0,
+        "n": 1000
+    },
+    "profiel > studiesGelijkwaardigDoorErvaring": {
+        "p_missing": 0.0,
+        "p_distinct": 0.002,
+        "n_distinct": 2,
+        "type": "Boolean",
+        "n_missing": 0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "false": 717,
+            "true": 283
+        }
+    },
+    "profiel > rijbewijzen": {
+        "p_missing": 0.0,
+        "type": "Unsupported",
+        "n_missing": 0,
+        "n": 1000
+    },
+    "profiel > jobdomeinen": {
+        "p_missing": 0.0,
+        "type": "Unsupported",
+        "n_missing": 0,
+        "n": 1000
+    },
+    "profiel > attesten": {
+        "p_missing": 0.0,
+        "type": "Unsupported",
+        "n_missing": 0,
+        "n": 1000
+    },
+    "profiel > talenKennis": {
+        "p_missing": 0.0,
+        "type": "Unsupported",
+        "n_missing": 0,
+        "n": 1000
+    },
+    "profiel > vakbewkaamheidsattesten": {
+        "p_missing": 0.0,
+        "type": "Unsupported",
+        "n_missing": 0,
+        "n": 1000
+    },
+    "profiel > c2BeroepsCompetentieProfielTitel": {
+        "p_missing": 0.003,
+        "p_distinct": 0.12637913741223672,
+        "n_distinct": 126,
+        "type": "Text",
+        "n_missing": 3,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Software ontwikkelaar": 131,
+            "Support medewerker ICT": 79,
+            "Systeembeheerder": 63,
+            "Integratie expert ICT": 59,
+            "Data engineer": 52,
+            "Expert productieproces en -methodes": 41,
+            "Data scientist": 34,
+            "Data manager": 28,
+            "Verantwoordelijke kwaliteitscontrole": 27,
+            "Productieplanner": 24,
+            "more ...": -1
+        }
+    },
+    "externeReferentie": {
+        "p_missing": 0.199,
+        "p_distinct": 0.9962546816479401,
+        "n_distinct": 798,
+        "type": "Text",
+        "n_missing": 199,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "YI": 3,
+            "Lily": 2,
+            "10485741": 1,
+            "P1637486-189": 1,
+            "001/002083/1629376674": 1,
+            "P1907001-1": 1,
+            "bbij0482918169BBBH12928": 1,
+            "10597949": 1,
+            "10527910": 1,
+            "163352": 1,
+            "more ...": -1
+        }
+    },
+    "profiel > opdrachtgever > tonenOpdrachtgever": {
+        "p_missing": 0.194,
+        "p_distinct": 0.0024813895781637717,
+        "n_distinct": 2,
+        "type": "Boolean",
+        "n_missing": 194,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "false": 525,
+            "true": 281
+        }
+    },
+    "profiel > opdrachtgever > contactMethode > fysiekeLocatie > gestructureerdAdres > gemeente": {
+        "p_missing": 0.727,
+        "p_distinct": 0.2087912087912088,
+        "n_distinct": 57,
+        "type": "Text",
+        "n_missing": 727,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "ANTWERPEN": 61,
+            "BRUSSEL": 26,
+            "ROESELARE": 20,
+            "SINT-GILLIS": 14,
+            "DIEGEM": 13,
+            "MEERHOUT": 10,
+            "ZAVENTEM": 10,
+            "ELSENE": 9,
+            "SINT-LAMBRECHTS-WOLUWE": 8,
+            "OUDERGEM": 6,
+            "more ...": -1
+        }
+    },
+    "profiel > opdrachtgever > contactMethode > fysiekeLocatie > gestructureerdAdres > postcode": {
+        "p_missing": 0.727,
+        "p_distinct": 0.21245421245421245,
+        "n_distinct": 58,
+        "type": "Text",
+        "n_missing": 727,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "2000": 47,
+            "1000": 26,
+            "8800": 20,
+            "1060": 14,
+            "2018": 13,
+            "1831": 13,
+            "2450": 10,
+            "1930": 10,
+            "1050": 9,
+            "1200": 8,
+            "more ...": -1
+        }
+    },
+    "profiel > opdrachtgever > contactMethode > fysiekeLocatie > gestructureerdAdres > straatNummerPostbus": {
+        "p_missing": 0.727,
+        "p_distinct": 0.2967032967032967,
+        "n_distinct": 81,
+        "type": "Text",
+        "n_missing": 727,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "": 46,
+            "Frankrijklei 101": 21,
+            "Houtskoolstraat 17": 13,
+            "Fonsnylaan 20": 12,
+            "Lil 24": 10,
+            "Havenlaan 88": 8,
+            "Lange Klarenstraat 19": 8,
+            "Solvynsstraat 49": 7,
+            "Avenue des Communautés 110": 7,
+            "Frankrijklei 156": 7,
+            "more ...": -1
+        }
+    },
+    "profiel > opdrachtgever > contactMethode > fysiekeLocatie > gestructureerdAdres > lijn": {
+        "p_missing": 0.727,
+        "p_distinct": 0.3992673992673993,
+        "n_distinct": 109,
+        "type": "Text",
+        "n_missing": 727,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Frankrijklei 101 2000 ANTWERPEN": 21,
+            "Houtskoolstraat 17 8800 ROESELARE": 13,
+            "Fonsnylaan 20 1060 SINT-GILLIS": 12,
+            "Lil 24 2450 MEERHOUT": 10,
+            "1000 BRUSSEL": 9,
+            "Lange Klarenstraat 19 2000 ANTWERPEN": 8,
+            "Havenlaan 88 1000 BRUSSEL": 8,
+            "Solvynsstraat 49 2018 ANTWERPEN": 7,
+            "Frankrijklei 156 2000 ANTWERPEN": 7,
+            "Avenue des Communautés 110 1200 SINT-LAMBRECHTS-WOLUWE": 7,
+            "more ...": -1
+        }
+    },
+    "profiel > opdrachtgever > contactMethode > fysiekeLocatie > land > code": {
+        "p_missing": 0.727,
+        "p_distinct": 0.007326007326007326,
+        "n_distinct": 2,
+        "type": "Categorical",
+        "n_missing": 727,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "BE": 271,
+            "NL": 2
+        }
+    },
+    "profiel > opdrachtgever > contactMethode > fysiekeLocatie > land > label": {
+        "p_missing": 0.727,
+        "p_distinct": 0.007326007326007326,
+        "n_distinct": 2,
+        "type": "Categorical",
+        "n_missing": 727,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "België": 271,
+            "Nederland": 2
+        }
+    },
+    "profiel > opdrachtgever > contactMethode > fysiekeLocatie > land > kortLabel": {
+        "p_missing": 0.727,
+        "p_distinct": 0.007326007326007326,
+        "n_distinct": 2,
+        "type": "Categorical",
+        "n_missing": 727,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "België": 271,
+            "Nederland": 2
+        }
+    },
+    "profiel > opdrachtgever > contactMethode > fysiekeLocatie > naam": {
+        "p_missing": 0.721,
+        "p_distinct": 0.3835125448028674,
+        "n_distinct": 107,
+        "type": "Text",
+        "n_missing": 721,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Smals": 15,
+            "MICHAEL PAGE INTERNATIONAL (BELGIUM)": 11,
+            "CLOVR": 10,
+            "BIZZTALENT": 8,
+            "VIVALDIS - HK": 8,
+            "Digitaal Vlaanderen": 8,
+            "Kingfisher IT": 7,
+            "Madison Recruitment": 7,
+            "Experis Belgium": 7,
+            "LGA Engineering": 6,
+            "more ...": -1
+        }
+    },
+    "profiel > opdrachtgever > naam": {
+        "p_missing": 0.721,
+        "p_distinct": 0.3835125448028674,
+        "n_distinct": 107,
+        "type": "Text",
+        "n_missing": 721,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Smals": 15,
+            "MICHAEL PAGE INTERNATIONAL (BELGIUM)": 11,
+            "CLOVR": 10,
+            "BIZZTALENT": 8,
+            "VIVALDIS - HK": 8,
+            "Digitaal Vlaanderen": 8,
+            "Kingfisher IT": 7,
+            "Madison Recruitment": 7,
+            "Experis Belgium": 7,
+            "LGA Engineering": 6,
+            "more ...": -1
+        }
+    },
+    "profiel > opdrachtgever > ondernemingsnummer": {
+        "p_missing": 0.719,
+        "p_distinct": 0.29537366548042704,
+        "n_distinct": 83,
+        "type": "Text",
+        "n_missing": 719,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "": 22,
+            "0477750635": 16,
+            "0406798006": 15,
+            "0402724895": 14,
+            "0455332351": 13,
+            "0473647436": 13,
+            "0789240993": 10,
+            "0843195858": 8,
+            "0599940248": 8,
+            "0728770304": 8,
+            "more ...": -1
+        }
+    },
+    "leverancier > contactMethode > fysiekeLocatie > gestructureerdAdres > postbus": {
+        "p_missing": 0.684,
+        "p_distinct": 0.12341772151898735,
+        "n_distinct": 39,
+        "type": "Categorical",
+        "n_missing": 684,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "2": 103,
+            "101": 31,
+            "60": 29,
+            "B3": 20,
+            "A": 18,
+            "1": 17,
+            "B": 16,
+            "01": 14,
+            "6": 8,
+            "3.1": 6,
+            "7": 6,
+            "2a": 5,
+            "001": 5,
+            "ARC": 3,
+            "205": 3,
+            "4": 3,
+            "82": 2,
+            "3": 2,
+            "31": 2,
+            "UNIT 11": 2,
+            "bus 2": 2,
+            "13": 2,
+            "0": 1,
+            "B2": 1,
+            "4.0": 1,
+            "1a": 1,
+            "495": 1,
+            "b2": 1,
+            "152": 1,
+            "21": 1,
+            "45": 1,
+            "3000": 1,
+            "0401": 1,
+            "43": 1,
+            "GN": 1,
+            "8": 1,
+            "5": 1,
+            "D": 1,
+            "16": 1
+        }
+    },
+    "profiel > opdrachtgever > contactMethode > fysiekeLocatie > gestructureerdAdres > nummer": {
+        "p_missing": 0.773,
+        "p_distinct": 0.2643171806167401,
+        "n_distinct": 60,
+        "type": "Text",
+        "n_missing": 773,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "101": 22,
+            "17": 17,
+            "24": 13,
+            "20": 12,
+            "5": 11,
+            "49": 10,
+            "11": 8,
+            "110": 8,
+            "19": 8,
+            "88": 8,
+            "more ...": -1
+        }
+    },
+    "profiel > opdrachtgever > contactMethode > fysiekeLocatie > gestructureerdAdres > straat": {
+        "p_missing": 0.773,
+        "p_distinct": 0.3303964757709251,
+        "n_distinct": 75,
+        "type": "Text",
+        "n_missing": 773,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Frankrijklei": 29,
+            "Houtskoolstraat": 13,
+            "Havenlaan": 12,
+            "Fonsnylaan": 12,
+            "Lil": 10,
+            "Lange Klarenstraat": 8,
+            "Avenue des Communautés": 7,
+            "Solvynsstraat": 7,
+            "Culliganlaan": 6,
+            "Da Vincilaan": 6,
+            "more ...": -1
+        }
+    },
+    "leverancier > organisatie > erkenningsnummer": {
+        "p_missing": 0.765,
+        "p_distinct": 0.19148936170212766,
+        "n_distinct": 45,
+        "type": "Categorical",
+        "n_missing": 765,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "VG. 2233/UC": 41,
+            "VG 2406/U": 31,
+            "VG.565/BO\r\n00217-405-20121108\r\nW.RS.153\r\nW.SO.153\r\nW.RE.153\r\n": 16,
+            "VG/609/U/BUOSA 54-406 54-405 W.INT.511": 13,
+            "\r\nActief Interim: V.G.20/BUP -W.INT.033-BXL\r\nActief Construct : V.G. 806/BC - W.INTC.002-BXL B-AA04.019\r\nActief NV: 01018": 13,
+            " VG 158/BUC": 12,
+            "Erkenningsnummer: : Vlaams gewest/Région Flamande: VG.153/BUOSAP - Brussel/Bruxelles:B.00202-406-20121106 - B.00202-405-20121106 - Waals gewest/Région Wallonne: W.INT.021 - W.RS.021 - W.RE.021 - W.SO.021": 11,
+            "Vlaanderen VG .631/BUOP, Brussel Bruxelles 00254-406-20121120/00254-405-20121120, Wallonie W.RS.001/W.INT.001 ": 10,
+            "VG.1038/BU - BHG: 00298-406-20121129 - BHG: 00298-405-20121129 - W.INT.279": 10,
+            "VG.607/BUO\r\n0072-405-20121019\r\n0072-406-20121019\r\nW.RS.197\r\nW.INT.197\r\nW.SO.197": 7,
+            "VG.361/BUOP | W-INT-RS-9 |  Bxl:00374-406-20130208 & 00374-405-20130123": 6,
+            "VG 292/BUOSA Erkenning Brussels Gewest n�00322-406-20121217": 6,
+            "VG.2019/U  \r\nW. DISP 999\r\n00558-406-20160504": 4,
+            "VG.431/BUO W.INT.237 B-AA04.014": 4,
+            "Erk. nr. VG.234/BUO - VG.234/BUOC - W.INT.041 - BHG 00269-40(6)(5)-20121121": 3,
+            "VG.2313/U": 3,
+            "VG 1176/BUOSAC": 3,
+            "VG.458/BUOSAP,00256-406-20121120,01933": 3,
+            "VG2262/U61104404": 3,
+            "Agilitas wil de maatschappij zo goed mogelijk weerspiegelen. Kandidaten worden geselecteerd op basis van hun kwaliteiten en vaardigheden, ongeacht geslacht, leeftijd, afkomst of handicap. VG. 1246/BUOSAP - B-C07.002 - 00309-405-20121204 - 00309-406-20130311 - W.INT.RE.RS.SO.148 - DC:40103": 3,
+            "Erk./Rec. VG 496/BUO & W020 & B 00424-406-20130311 & B 00424-405-20130311": 2,
+            "VG599/BUOSAP": 2,
+            "? 2014 Robert Half. A. Gossetlaan 28A b7 / 1702 Groot-Bijgaarden RPR Brussels - VG.453/BUO - W.INT.030 / W.RS.030 / Erkenning van het Brussels Hoofdstedelijk Gewest: 00238-406-20121114 / Geregistreerd in het Brussels Hoofdstedelijk Gewest: 00238-405-20121114 / Agrément de la Région de Bruxelles-Capitale: 00238-406-20121114 / Enregistré dans la Région de Bruxelles-Capitale: 00238-405-20121114": 2,
+            "VG.13/BUO\r\n00305-406-20121204\r\nW.97.83": 2,
+            "VG.1312/BC\r\n00137-406-20121024\r\nW.INT.10": 2,
+            "Erkenning Vlaams gewest:\tVG2101/U\r\nErkenning Brussels gewest:\t00176-406-20150327\r\n": 2,
+            "2062\\U\r\n2326\\U": 2,
+            "VG:VG.1537/BU, BHG-UA:00134-406-20121024, WG:W.INT.534\r\n": 2,
+            "VG 496/BUO & W020 & B 00424-406-20130311 & B 00424-405-20130311": 1,
+            "2295/U": 1,
+            "64675282\r\n": 1,
+            "Erk.nr. VG 47/BU; W.INT.214; BHG 00354-406-20130122.": 1,
+            "IMPACT NV - 00167-406-20121030, VG.277/BU, W.INT.692, DG-LAV-007\r\nIMPACT CONSTRUCTION NV - 00319-406-20121213, VG.1154/BC, W.DISPC.12, DG-LAV-008\t\r\n": 1,
+            "65708407": 1,
+            "VG/1380/BC 55-406 W.DISP.900": 1,
+            "VG.1842/BU / VG.1842/BUC": 1,
+            "71456473\r\n": 1,
+            "VG 1570/BU\r\n00396-405-20130225\r\nW.INT.682 ": 1,
+            "VG 2038/U ? W.DISP 938 VG 2089/U ? W.DISP 1067 VG 2214/U ? W.DISP 1322\r\n67950937 ": 1,
+            "023/111747/1674223718": 1,
+            "102/461647/1712570115": 1,
+            "VG.71/BUOSAPC": 1,
+            "VG. 2095/U": 1,
+            "VG 2099/UP\r\n\r\n": 1,
+            "Q Jobs - erkenningsnr: VG.1555/BUOC-W.INT.546-B-00197-405-20121106": 1
+        }
+    },
+    "profiel > sollicitatieInfo > cvGewenst": {
+        "p_missing": 0.865,
+        "p_distinct": 0.014814814814814815,
+        "n_distinct": 2,
+        "type": "Boolean",
+        "n_missing": 865,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "true": 134,
+            "false": 1
+        }
+    },
+    "profiel > aanbod > minimumBrutoloon": {
+        "p_missing": 0.784,
+        "mean": 3252.703703703704,
+        "p_distinct": 0.14351851851851852,
+        "max": 5167.0,
+        "n_distinct": 31,
+        "type": "Numeric",
+        "n_missing": 784,
+        "std": 723.6750492565371,
+        "min": 0.0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "3000.0": 45,
+            "3500.0": 36,
+            "2500.0": 29,
+            "4000.0": 28,
+            "2800.0": 13,
+            "3600.0": 8,
+            "5000.0": 7,
+            "3800.0": 7,
+            "3300.0": 5,
+            "2350.0": 5,
+            "more ...": -1
+        }
+    },
+    "profiel > aanbod > maximumBrutoloon": {
+        "p_missing": 0.784,
+        "mean": 4676.231481481482,
+        "p_distinct": 0.1574074074074074,
+        "max": 7500.0,
+        "n_distinct": 34,
+        "type": "Numeric",
+        "n_missing": 784,
+        "std": 954.6467760891094,
+        "min": 0.0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "4500.0": 44,
+            "5000.0": 38,
+            "4000.0": 27,
+            "6000.0": 19,
+            "3500.0": 14,
+            "5500.0": 13,
+            "3800.0": 7,
+            "4200.0": 5,
+            "3600.0": 4,
+            "5300.0": 3,
+            "more ...": -1
+        }
+    },
+    "profiel > voorgesteldeArbeidsovereenkomst > beginDatum": {
+        "p_missing": 0.924,
+        "p_distinct": 0.618421052631579,
+        "max": "2025-10-15 00:00:00",
+        "n_distinct": 47,
+        "type": "DateTime",
+        "n_missing": 924,
+        "min": "2024-06-11 00:00:00",
+        "n": 1000,
+        "value_counts_without_nan": {
+            "2025-09-01 00:00:00": 5,
+            "2025-08-29 00:00:00": 4,
+            "2025-07-02 00:00:00": 4,
+            "2025-07-09 00:00:00": 4,
+            "2025-07-11 00:00:00": 4,
+            "2025-08-21 00:00:00": 3,
+            "2025-08-14 00:00:00": 2,
+            "2025-07-01 00:00:00": 2,
+            "2025-08-08 00:00:00": 2,
+            "2025-08-04 00:00:00": 2,
+            "more ...": -1
+        }
+    },
+    "profiel > tewerkstellingsLocatie > bedrijfsLocatie > onGestructureerdAdres > lijnen": {
+        "p_missing": 0.925,
+        "type": "Unsupported",
+        "n_missing": 925,
+        "n": 1000
+    },
+    "profiel > sollicitatieInfo > logischeLocatie > email": {
+        "p_missing": 0.677,
+        "p_distinct": 0.44272445820433437,
+        "n_distinct": 143,
+        "type": "Text",
+        "n_missing": 677,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "it@lga.jobs": 59,
+            "selectiesvlaanderenconnect@vlaanderen.be": 18,
+            "engineering@lga.jobs": 17,
+            "supply@lga.jobs": 15,
+            "legal@legrand-associates.com": 11,
+            "outsourcing@bizztalent.be": 8,
+            "roel@kingfisher-it.be": 7,
+            "els@oxida.be": 5,
+            "michael@kingfisher-it.be": 5,
+            "jobs@newpointprofessionals.be": 5,
+            "more ...": -1
+        }
+    },
+    "profiel > sollicitatieInfo > logischeLocatie > telefoon": {
+        "p_missing": 0.678,
+        "p_distinct": 0.40683229813664595,
+        "n_distinct": 131,
+        "type": "Text",
+        "n_missing": 678,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "+32 3 300 27 61": 30,
+            "+32 51 49 51 01": 14,
+            "+32 9 395 32 01": 12,
+            "+32 9 352 00 29": 11,
+            "093520104": 11,
+            "+32 3 300 27 60": 10,
+            "+32 51 49 51 00": 10,
+            "+ 32 478 46 07 72": 7,
+            "036480213": 7,
+            "+32 471 50 78 51": 6,
+            "more ...": -1
+        }
+    },
+    "profiel > sollicitatieInfo > adres > onGestructureerdAdres > lijnen": {
+        "p_missing": 0.986,
+        "type": "Unsupported",
+        "n_missing": 986,
+        "n": 1000
+    },
+    "bijlage": {
+        "p_missing": 0.958,
+        "p_distinct": 1.0,
+        "n_distinct": 42,
+        "type": "Text",
+        "n_missing": 958,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "VC_vacature_PO_2025_DFB.pdf": 1,
+            "Vacature - Data Scientist Expert.pdf": 1,
+            "Vacature project engineer.pdf": 1,
+            "Data projectleider.pdf": 1,
+            "20250822 Vacature System Engineer.pdf": 1,
+            "Advert ITS Technician.pdf": 1,
+            "Customer Success Manager CIOC Energy.pdf": 1,
+            "Functioneel Analist Expert Loketplatform.pdf": 1,
+            "Vacature_process-engineer.pdf": 1,
+            "Vlaanderen connect-FB Functioneel en Test Analist _11042025.pdf": 1,
+            "more ...": -1
+        }
+    },
+    "profiel > tewerkstellingsLocatie > bedrijfsLocatie > gestructureerdAdres > postbus": {
+        "p_missing": 0.949,
+        "p_distinct": 0.3333333333333333,
+        "n_distinct": 17,
+        "type": "Categorical",
+        "n_missing": 949,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "60": 27,
+            "A": 6,
+            "2": 3,
+            "13": 2,
+            "3": 1,
+            "WEVELGEM": 1,
+            "288": 1,
+            "0021": 1,
+            "31": 1,
+            "UNI": 1,
+            "3000": 1,
+            "43": 1,
+            "0.10": 1,
+            "B": 1,
+            "5": 1,
+            "Roeselare": 1,
+            "UNIT 11": 1
+        }
+    },
+    "profiel > sollicitatieInfo > adres > gestructureerdAdres > postbus": {
+        "p_missing": 0.9,
+        "p_distinct": 0.21,
+        "n_distinct": 21,
+        "type": "Categorical",
+        "n_missing": 900,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "60": 29,
+            "B": 13,
+            "1": 11,
+            "0401": 8,
+            "A": 6,
+            "7": 5,
+            "2": 5,
+            "31": 3,
+            "2a": 3,
+            "5": 2,
+            "3": 2,
+            "UNI": 2,
+            "bus 2": 2,
+            "13": 2,
+            "1A": 1,
+            "4.0": 1,
+            "21": 1,
+            "45": 1,
+            "3000": 1,
+            "43": 1,
+            "16": 1
+        }
+    },
+    "profiel > sollicitatieInfo > contactPersoon > aanspreekTitel > code": {
+        "p_missing": 0.88,
+        "p_distinct": 0.016666666666666666,
+        "n_distinct": 2,
+        "type": "Categorical",
+        "n_missing": 880,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "MVR": 82,
+            "DHR": 38
+        }
+    },
+    "profiel > sollicitatieInfo > contactPersoon > aanspreekTitel > label": {
+        "p_missing": 0.88,
+        "p_distinct": 0.016666666666666666,
+        "n_distinct": 2,
+        "type": "Categorical",
+        "n_missing": 880,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Mevr.": 82,
+            "Dhr.": 38
+        }
+    },
+    "profiel > sollicitatieInfo > contactPersoon > aanspreekTitel > kortLabel": {
+        "p_missing": 0.88,
+        "p_distinct": 0.016666666666666666,
+        "n_distinct": 2,
+        "type": "Categorical",
+        "n_missing": 880,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Mevrouw": 82,
+            "Heer": 38
+        }
+    },
+    "profiel > sollicitatieInfo > contactPersoon > fax": {
+        "p_missing": 0.975,
+        "p_distinct": 0.56,
+        "n_distinct": 14,
+        "type": "Text",
+        "n_missing": 975,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "03 600 79 69": 10,
+            "056 24 12 92": 3,
+            "09 233 28 25": 1,
+            "056 36 41 63": 1,
+            "000-000 00 00": 1,
+            "02 270 25 96": 1,
+            "058 33 00 46": 1,
+            "015 30 53 00": 1,
+            "02 775 76 11": 1,
+            "050 79 18 40": 1,
+            "more ...": -1
+        }
+    },
+    "profiel > sollicitatieInfo > einddatumSollicitatie": {
+        "p_missing": 0.991,
+        "p_distinct": 0.7777777777777778,
+        "max": "2025-11-25 00:00:00",
+        "n_distinct": 7,
+        "type": "DateTime",
+        "n_missing": 991,
+        "min": "2025-09-03 00:00:00",
+        "n": 1000,
+        "value_counts_without_nan": {
+            "2025-09-30 00:00:00": 3,
+            "2025-09-03 00:00:00": 1,
+            "2025-09-15 00:00:00": 1,
+            "2025-09-09 00:00:00": 1,
+            "2025-11-25 00:00:00": 1,
+            "2025-09-22 00:00:00": 1,
+            "2025-09-04 00:00:00": 1
+        }
+    },
+    "profiel > sollicitatieInfo > motivatieGewenst": {
+        "p_missing": 0.95,
+        "p_distinct": 0.04,
+        "n_distinct": 2,
+        "type": "Boolean",
+        "n_missing": 950,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "true": 47,
+            "false": 3
+        }
+    },
+    "laatstePublicatieDatum": {
+        "p_missing": 0.983,
+        "p_distinct": 0.8235294117647058,
+        "max": "2025-10-31 00:00:00+00:00",
+        "n_distinct": 14,
+        "type": "DateTime",
+        "n_missing": 983,
+        "min": "2025-01-21 00:00:00+00:00",
+        "n": 1000,
+        "value_counts_without_nan": {
+            "2025-10-10 00:00:00+00:00": 3,
+            "2025-08-18 00:00:00+00:00": 2,
+            "2025-09-25 00:00:00+00:00": 1,
+            "2025-10-31 00:00:00+00:00": 1,
+            "2025-09-17 00:00:00+00:00": 1,
+            "2025-09-22 00:00:00+00:00": 1,
+            "2025-09-15 00:00:00+00:00": 1,
+            "2025-08-11 00:00:00+00:00": 1,
+            "2025-02-03 00:00:00+00:00": 1,
+            "2025-01-21 00:00:00+00:00": 1,
+            "more ...": -1
+        }
+    },
+    "beheerder > email": {
+        "p_missing": 0.981,
+        "p_distinct": 0.7368421052631579,
+        "n_distinct": 14,
+        "type": "Text",
+        "n_missing": 981,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Sigrid.Vanderstiggel@vdab.be": 3,
+            "sara.opsomer@vdab.be": 2,
+            "nancy.vervaet@vdab.be": 2,
+            "Gerda.Piens@vdab.be": 2,
+            "virginie.gielen@vdab.be": 1,
+            "an.geerdens@vdab.be": 1,
+            "oksana.willekens@vdab.be": 1,
+            "Sellem.Zahir@vdab.be": 1,
+            "kevin.bemelmans@vdab.be": 1,
+            "Sahila.ElBoudaati@vdab.be": 1,
+            "more ...": -1
+        }
+    },
+    "beheerder > gebruikersnaam": {
+        "p_missing": 0.981,
+        "p_distinct": 0.7368421052631579,
+        "n_distinct": 14,
+        "type": "Text",
+        "n_missing": 981,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "SVDSTIGG": 3,
+            "SOPSOME1": 2,
+            "NVERVAET": 2,
+            "GPIENS": 2,
+            "VGIELEN2": 1,
+            "AGEERDE1": 1,
+            "OWILLEK1": 1,
+            "SZAHIR": 1,
+            "KBEMELMA": 1,
+            "SELBOUDA": 1,
+            "more ...": -1
+        }
+    },
+    "beheerder > naam": {
+        "p_missing": 0.981,
+        "p_distinct": 0.7368421052631579,
+        "n_distinct": 14,
+        "type": "Text",
+        "n_missing": 981,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Sigrid VANDERSTIGGEL": 3,
+            "Sara OPSOMER": 2,
+            "Nancy VERVAET": 2,
+            "Gerda PIENS": 2,
+            "Virginie GIELEN": 1,
+            "An GEERDENS": 1,
+            "Oksana WILLEKENS": 1,
+            "Sellem ZAHIR": 1,
+            "Kevin BEMELMANS": 1,
+            "Sahila EL BOUDAATI": 1,
+            "more ...": -1
+        }
+    },
+    "beheerder > telefoon": {
+        "p_missing": 0.988,
+        "mean": 32478696822.333332,
+        "p_distinct": 0.8333333333333334,
+        "max": 32499594891.0,
+        "n_distinct": 10,
+        "type": "Numeric",
+        "n_missing": 988,
+        "std": 9481502.557126628,
+        "min": 32470972815.0,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "32475827143.0": 2,
+            "32470972815.0": 2,
+            "32476951323.0": 1,
+            "32474570691.0": 1,
+            "32499594891.0": 1,
+            "32473652086.0": 1,
+            "32471792626.0": 1,
+            "32477890438.0": 1,
+            "32496628916.0": 1,
+            "32479680981.0": 1
+        }
+    },
+    "profiel > sollicitatieInfo > contactPersoon > functie": {
+        "p_missing": 0.927,
+        "p_distinct": 0.4931506849315068,
+        "n_distinct": 36,
+        "type": "Categorical",
+        "n_missing": 927,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Recruiter": 9,
+            "Recruitment Manager": 8,
+            "Rekruteringsverantwoordelijke": 5,
+            "HR": 5,
+            "HR Business Partner": 4,
+            "Bestuurder": 4,
+            "HR Manager": 3,
+            "Talent Acquisition Partner": 3,
+            "Recruitment consultant": 2,
+            "Matchmaker": 2,
+            "Recruitment officer": 2,
+            "Zaakvoerder": 2,
+            "Consultant": 1,
+            "Recruitment Consultant": 1,
+            "Senior Consultant": 1,
+            "zaakvoerder": 1,
+            "Talent Acquisition Specialist": 1,
+            "HR Recruiter": 1,
+            "CEO": 1,
+            "HR Admin Coordinator": 1,
+            "Operationeel teamcoördinator": 1,
+            "Finance & HR": 1,
+            "Business Manager": 1,
+            "HR-verantwoordelijke": 1,
+            "Sales Development Manager": 1,
+            "Directeur": 1,
+            "HR Verantwoordelijke": 1,
+            "Coördinator Rekrutering": 1,
+            "CSO": 1,
+            "HR manager": 1,
+            "Teamlead": 1,
+            "Recruitment Expert": 1,
+            "COO": 1,
+            "HR Consultant": 1,
+            "Talent Acquisition Team Lead": 1,
+            "HR consulente": 1
+        }
+    },
+    "profiel > opdrachtgever > contactMethode > fysiekeLocatie > gestructureerdAdres > postbus": {
+        "p_missing": 0.995,
+        "p_distinct": 0.6,
+        "n_distinct": 3,
+        "type": "Text",
+        "n_missing": 995,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "31": 3,
+            "4.2": 1,
+            "0401": 1
+        }
+    },
+    "profiel > voorgesteldeArbeidsovereenkomst > vermoedelijkeEindDatum": {
+        "p_missing": 0.995,
+        "p_distinct": 1.0,
+        "max": "2026-08-31 00:00:00",
+        "n_distinct": 5,
+        "type": "DateTime",
+        "n_missing": 995,
+        "min": "2025-08-27 00:00:00",
+        "n": 1000,
+        "value_counts_without_nan": {
+            "2025-09-28 00:00:00": 1,
+            "2025-12-31 00:00:00": 1,
+            "2026-08-31 00:00:00": 1,
+            "2025-08-27 00:00:00": 1,
+            "2026-06-30 00:00:00": 1
+        }
+    },
+    "profiel > voorgesteldeArbeidsovereenkomst > vermoedelijkeAanwerfDatum": {
+        "p_missing": 0.999,
+        "p_distinct": 1.0,
+        "max": "2025-07-28 00:00:00",
+        "n_distinct": 1,
+        "type": "DateTime",
+        "n_missing": 999,
+        "min": "2025-07-28 00:00:00",
+        "n": 1000,
+        "value_counts_without_nan": {
+            "2025-07-28 00:00:00": 1
+        }
+    },
+    "profiel > opdrachtgever > contactMethode > fysiekeLocatie > onGestructureerdAdres > lijnen": {
+        "p_missing": 0.998,
+        "type": "Unsupported",
+        "n_missing": 998,
+        "n": 1000
+    },
+    "leverancier > contactMethode > fysiekeLocatie > onGestructureerdAdres > lijnen": {
+        "p_missing": 0.998,
+        "type": "Unsupported",
+        "n_missing": 998,
+        "n": 1000
+    },
+    "profiel > sollicitatieInfo > logischeLocatie > fax": {
+        "p_missing": 0.999,
+        "p_distinct": 1.0,
+        "n_distinct": 1,
+        "type": "Text",
+        "n_missing": 999,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "056 61 72 06": 1
+        }
+    },
+    "onderwijsgegevens > onderwijsNetCode > code": {
+        "p_missing": 0.999,
+        "p_distinct": 1.0,
+        "n_distinct": 1,
+        "type": "Text",
+        "n_missing": 999,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "0404": 1
+        }
+    },
+    "onderwijsgegevens > onderwijsNetCode > label": {
+        "p_missing": 0.999,
+        "p_distinct": 1.0,
+        "n_distinct": 1,
+        "type": "Text",
+        "n_missing": 999,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "Wenst les te geven in het gemeentelijk, stedelijk en provinciaal onderwijs": 1
+        }
+    },
+    "onderwijsgegevens > onderwijsNetCode > kortLabel": {
+        "p_missing": 0.999,
+        "p_distinct": 1.0,
+        "n_distinct": 1,
+        "type": "Text",
+        "n_missing": 999,
+        "n": 1000,
+        "value_counts_without_nan": {
+            "het gemeentelijk, stedelijk en provinciaal onderwijs": 1
+        }
+    },
+    "onderwijsgegevens > onderwijsVakken": {
+        "p_missing": 0.999,
+        "type": "Unsupported",
+        "n_missing": 999,
+        "n": 1000
+    }
+}

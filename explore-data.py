@@ -18,7 +18,7 @@ REPORT_DIR = "report"
 os.makedirs(REPORT_DIR, exist_ok=True)
 
 
-def analyze_job_listings(directory_path, output_path=None, base_name="report"):
+def analyze_job_listings(directory_path, output_path=None, base_name="report", file_limit=1000):
     """
     Analyzes job listings from JSON files in a given directory and generates a profiling report.
 
@@ -27,6 +27,7 @@ def analyze_job_listings(directory_path, output_path=None, base_name="report"):
         output_path (str, optional): The base path for the output report files (without extension).
                                      If not provided, uses base_name with '_raw' suffix.
         base_name (str, optional): The base name for output files. Defaults to "report".
+        file_limit (int, optional): Maximum number of files to process. Defaults to 1000.
     """
     if output_path is None:
         output_path = os.path.join(REPORT_DIR, f"{base_name}_raw")
@@ -34,13 +35,20 @@ def analyze_job_listings(directory_path, output_path=None, base_name="report"):
     print(f"Step 1: Analyzing job listings from '{directory_path}'...")
     
     all_data = []
+    files_processed = 0
+    
     for filename in os.listdir(directory_path):
         if filename.endswith(".json"):
+            if files_processed >= file_limit:
+                print(f"Reached file limit of {file_limit}. Stopping file processing.")
+                break
+                
             filepath = os.path.join(directory_path, filename)
             try:
                 with open(filepath, 'r') as f:
                     data = json.load(f)
                     all_data.append(data)
+                    files_processed += 1
             except json.JSONDecodeError as e:
                 print(f"Error decoding JSON from {filepath}: {e}")
             except Exception as e:
@@ -363,20 +371,21 @@ def enrich_dataset_metadata(input_path: str, output_path: str = None, base_name:
     print(f"Enriched data saved at: {os.path.abspath(output_path)}")
 
 
-def run_all_steps(directory_path, base_name="report"):
+def run_all_steps(directory_path, base_name="report", file_limit=1000):
     """
     Runs all steps in sequence: analyze, clean, shrink, enrich.
     
     Args:
         directory_path (str): The path to the directory containing JSON files with job listings.
         base_name (str, optional): The base name for output files. Defaults to "report".
+        file_limit (int, optional): Maximum number of files to process. Defaults to 1000.
     """
     print("=" * 80)
     print("RUNNING ALL STEPS AUTOMATICALLY")
     print("=" * 80)
     
     # Step 1: Analyze
-    raw_report_path = analyze_job_listings(directory_path, base_name=base_name)
+    raw_report_path = analyze_job_listings(directory_path, base_name=base_name, file_limit=file_limit)
     print("\n" + "=" * 80 + "\n")
     
     # Step 2: Clean
@@ -430,12 +439,18 @@ def main():
         default="report",
         help="Base name for output files (default: report)"
     )
+    parser.add_argument(
+        "-l", "--limit",
+        type=int,
+        default=1000,
+        help="Maximum number of files to process (default: 1000)"
+    )
     
     args = parser.parse_args()
     
     # Determine which step to run
     if args.all:
-        run_all_steps(args.directory, base_name=args.name)
+        run_all_steps(args.directory, base_name=args.name, file_limit=args.limit)
     elif args.clean:
         clean_variable_stats_from_json(
             os.path.join(REPORT_DIR, f"{args.name}_raw.json"),
@@ -453,7 +468,7 @@ def main():
         )
     else:
         # No flags: run first step (analyze)
-        analyze_job_listings(args.directory, base_name=args.name)
+        analyze_job_listings(args.directory, base_name=args.name, file_limit=args.limit)
 
 
 if __name__ == "__main__":
