@@ -16,6 +16,8 @@
 
 The end result is a compact, enriched JSON file that contains both statistical data and natural language descriptions - perfect for pasting into LLM contexts when you need AI assistance with data-related questions.
 
+Check out the [example reports](./example_reports/) to see the output at each stage of the process.
+
 **Built as a single-file script** (`explore-data.py`) for easy copy-pasting into your projects. It works on directories containing multiple JSON files with the same structure, making it ideal for batch data analysis.
 
 ---
@@ -74,6 +76,13 @@ data-describer/
 │   ├── datum.png
 │   ├── numbers.png
 │   └── text.png
+│
+├── example_reports/         # Example output files at each stage
+│   ├── one_raw.html         # Interactive HTML report
+│   ├── one_raw.json         # Full profiling data
+│   ├── one_cleaned.json     # Cleaned statistics
+│   ├── one_shrinked.json    # Reduced data
+│   └── one_enriched.json    # Final output with AI descriptions
 │
 ├── jobs/                    # Example: input data directory
 │   └── bronze/vdab/
@@ -198,6 +207,13 @@ python explore-data.py ./jobs/bronze/vdab/job_listings/ --all --name job_analysi
 # - report/job_analysis_enriched.json (paste into LLM context)
 ```
 
+You can also check out the [example reports](./example_reports/) to see sample outputs at each stage of the process:
+- [one_raw.html](./example_reports/one_raw.html) - Interactive HTML report with visualizations
+- [one_raw.json](./example_reports/one_raw.json) - Complete profiling data
+- [one_cleaned.json](./example_reports/one_cleaned.json) - Cleaned statistics
+- [one_shrinked.json](./example_reports/one_shrinked.json) - Reduced data
+- [one_enriched.json](./example_reports/one_enriched.json) - Final output with AI descriptions
+
 ---
 
 ## ⏱️ Development Timeline
@@ -213,9 +229,7 @@ Built with the assistance of **Cursor IDE** - an AI-powered code editor that mad
 Special thanks to:
 - [ydata-profiling](https://github.com/ydataai/ydata-profiling) for the amazing profiling capabilities
 - [LangChain](https://www.langchain.com/) for LLM integration
-- [OpenRouter](https://openrouter.ai/) for easy access to Claude and other models
-- [Anthropic Claude](https://www.anthropic.com/) for generating insightful data descriptions
-
+- [OpenRouter](https://openrouter.ai/) for easy access to all models of all providers
 ---
 
 ## 📝 License
